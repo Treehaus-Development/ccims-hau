@@ -1,0 +1,5 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"stage": "household",
+	"household": {{household_data.formData}}
+}}
