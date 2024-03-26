@@ -291,7 +291,7 @@
                         "originalIdentifier": "status",
                         "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_data.sourceData, household_data.formData, household_data.fieldState)}}",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"US Citizen\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"u4U - Ukranian\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"U4U - Non-Ukranian\",\n    \"value\": \"RED\"\n  },\n  {\n    \"label\": \"Humanitarian Parolee\",\n    \"value\": \"RED2\"\n  },\n  {\n    \"label\": \"Other - Non-Ukranian\",\n    \"value\": \"RED3\"\n  }\n]",
+                        "options": "[\n  {\n    \"label\": \"US Citizen\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"U4U - Ukrainian - UHP\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"U4U - Non-Ukrainian - UHP\",\n    \"value\": \"RED\"\n  },\n  {\n    \"label\": \"Humanitarian Parolee\",\n    \"value\": \"RED2\"\n  },\n  {\n    \"label\": \"Other - Non-Ukranian\",\n    \"value\": \"RED3\"\n  }\n]",
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": "",
