@@ -23,7 +23,7 @@
     "leftColumn": 24,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "DEBUG: Open Consent Forms",
-    "isDisabled": true,
+    "isDisabled": false,
     "key": "m7xbg7z6uh",
     "isDeprecated": false,
     "rightColumn": 40,
