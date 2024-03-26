@@ -25,7 +25,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Elegibility",
+    "text": "Eligibility",
     "key": "7cn5x9nvl5",
     "isDeprecated": false,
     "rightColumn": 41,

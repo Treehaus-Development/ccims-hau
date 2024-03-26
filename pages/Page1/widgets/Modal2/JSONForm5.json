@@ -381,7 +381,7 @@
     "bottomRow": 83,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Elegible Person {{qual_person.selectedOptionLabel}}",
+    "title": "Eligibile Person {{qual_person.selectedOptionLabel}}",
     "hideCard": false,
     "mobileRightColumn": 28,
     "parentColumnSpace": 17.96640625,
