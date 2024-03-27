@@ -406,7 +406,7 @@
         {"key": "schema.__root_schema__.children.entrydate.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 39,
+    "bottomRow": 90,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Eligibile Person {{qual_person.selectedOptionLabel}}",

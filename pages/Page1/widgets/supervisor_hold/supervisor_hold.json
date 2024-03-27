@@ -78,7 +78,7 @@
     "widgetId": "6kmw2m4ucd",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{getapp.data.application[0].application.stage === \"consentform\" && getapp.data.application[0].application.elegibilityoverride === \"true\"}}",
+    "isVisible": "{{getapp.data.application[0].application.stage === \"consentform\" && getapp.data.application[0].application.elegibility.elegibilitystatus === \"false\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
