@@ -1,5 +1,5 @@
 {"application":{
 	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
-	"consent": {{JSONForm5.formData}}
+	"elegibility": {{JSONForm5.formData}}
 	
 }}
