@@ -17,7 +17,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -28,16 +28,16 @@
     "text": "Manage Documents",
     "key": "m3wcyk3l6x",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 40,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "4zfr94rbpy",
+    "widgetId": "jlhmb6dcf5",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "i3clj0sj1e",
+    "parentId": "o96l2pvf9r",
     "tags": [
         "Suggested",
         "Content"

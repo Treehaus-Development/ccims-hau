@@ -276,7 +276,7 @@
                 "originalIdentifier": "servicearea",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm5.sourceData, JSONForm5.formData, JSONForm5.fieldState)}}",
                 "children": {},
-                "options": "[\n{\"label\": \"Alameda\", \"value\": \"Alameda\"},\n{\"label\": \"Los Angeles\", \"value\": \"Los Angeles\"},\n{\"label\": \"Orange\", \"value\": \"Orange\"},\n{\"label\": \"Sacramento\", \"value\": \"Sacramento\"},\n{\"label\": \"San Diego\", \"value\": \"San Diego\"},\n{\"label\": \"Sand Francisco\", \"value\": \"Sand Francisco\"},\n{\"label\": \"Santa Clara\", \"value\": \"Santa Clara\"},\n{\"label\": \"Stanislaus\", \"value\": \"Stanislaus\"},\n{\"label\": \"Other\", \"value\": \"Other\"}\n]",
+                "options": "[\n{\"label\": \"Alameda\", \"value\": \"Alameda\"},\n{\"label\": \"Los Angeles\", \"value\": \"Los Angeles\"},\n{\"label\": \"Orange\", \"value\": \"Orange\"},\n{\"label\": \"Sacramento\", \"value\": \"Sacramento\"},\n{\"label\": \"San Diego\", \"value\": \"San Diego\"},\n{\"label\": \"San Francisco\", \"value\": \"San Francisco\"},\n{\"label\": \"Santa Clara\", \"value\": \"Santa Clara\"},\n{\"label\": \"Stanislaus\", \"value\": \"Stanislaus\"},\n{\"label\": \"Other\", \"value\": \"Other\"}\n]",
                 "position": 0,
                 "isDisabled": false,
                 "sourceData": "",

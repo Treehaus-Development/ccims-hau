@@ -1,12 +1,13 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 11,
-    "widgetName": "RadioGroup1Copy",
-    "displayName": "Radio Group",
+    "mobileBottomRow": 21,
+    "widgetName": "RadioGroup2Copy1",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+    "displayName": "Radio Group",
+    "topRow": 15,
     "searchTags": ["choice"],
-    "topRow": 5,
-    "bottomRow": 11,
+    "bottomRow": 21,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "RADIO_GROUP_WIDGET",
@@ -17,7 +18,11 @@
     "parentColumnSpace": 18.53125,
     "dynamicTriggerPathList": [],
     "leftColumn": 8,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "isVisible"},
+        {"key": "label"}
+    ],
     "labelPosition": "Top",
     "options": [
         {
@@ -27,6 +32,14 @@
         {
             "label": "No",
             "value": "N"
+        },
+        {
+            "label": "County Not Serviced by EA",
+            "value": "NS"
+        },
+        {
+            "label": "More than 2 hour round trip from EA",
+            "value": "TF"
         }
     ],
     "isDisabled": false,
@@ -35,23 +48,23 @@
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 28,
+    "rightColumn": 52,
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "ke23hbrc0c",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Is {Primary Applicant} Currently Employed?",
+    "widgetId": "ow825xzdah",
+    "isVisible": "{{RadioGroup1.selectedOptionValue===\"No\"}}",
+    "label": "Is {{qual_person.selectedOptionLabel}} Currently Enrolled with an Employment Agency?",
     "version": 1,
-    "parentId": "m8jcrpmkcz",
+    "parentId": "a9c3zrlljc",
     "tags": ["Toggles"],
+    "isLoading": false,
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 5,
-    "originalTopRow": 5,
+    "mobileTopRow": 15,
+    "originalTopRow": 15,
     "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 11,
+    "originalBottomRow": 21,
     "isInline": true,
     "alignment": "left",
     "minDynamicHeight": 4

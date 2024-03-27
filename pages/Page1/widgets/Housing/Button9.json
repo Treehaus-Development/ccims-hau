@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button9",
-    "onClick": "{{Housing.setVisibility(true);Household_Info.setVisibility(false);}}}",
+    "onClick": "{{Housing.setVisibility(false);Household_Info.setVisibility(true);}}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -26,7 +26,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Submit",
+    "text": "Proceed",
     "isDisabled": false,
     "key": "bvm6p7g3ga",
     "isDeprecated": false,
