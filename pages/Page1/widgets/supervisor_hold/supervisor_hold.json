@@ -4,7 +4,7 @@
     "widgetName": "supervisor_hold",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Container",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 327,
-    "bottomRow": 344,
+    "topRow": 162,
+    "bottomRow": 179,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -25,7 +25,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "isVisible"}
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -51,12 +52,12 @@
         "rightColumn": 327.515625,
         "detachFromLayout": true,
         "dynamicHeight": "AUTO_HEIGHT",
-        "widgetId": "nlas84jsph",
+        "widgetId": "zip9v9qo9p",
         "containerStyle": "none",
         "minWidth": 450,
         "isVisible": true,
         "version": 1,
-        "parentId": "dq772yqj6v",
+        "parentId": "6kmw2m4ucd",
         "renderMode": "CANVAS",
         "isLoading": false,
         "mobileTopRow": 0,
@@ -74,10 +75,10 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "dq772yqj6v",
+    "widgetId": "6kmw2m4ucd",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": "{{getapp.data.application[0].application.stage === \"consentform\" && getapp.data.application[0].application.elegibilityoverride === \"true\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
@@ -85,10 +86,10 @@
     "isLoading": false,
     "mobileTopRow": 123,
     "responsiveBehavior": "fill",
-    "originalTopRow": 327,
+    "originalTopRow": 162,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 344,
+    "originalBottomRow": 179,
     "minDynamicHeight": 10
 }
