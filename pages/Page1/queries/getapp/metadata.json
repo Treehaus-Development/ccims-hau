@@ -19,7 +19,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 1000000,
       "paginationType": "NONE",
       "path": "/v1/ccims/ccdsd/hau",
       "headers": [
@@ -52,7 +52,9 @@
       }
     ],
     "isValid": true,
-    "invalids": [],
+    "invalids": [
+      "'Query timeout' field must be an integer between 0 and 60000"
+    ],
     "messages": [],
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text "

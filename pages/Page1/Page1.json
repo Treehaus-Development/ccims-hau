@@ -36,7 +36,7 @@
               "jsonPathKeys": [
                 " appsmith.URL.queryParams.application || DEBUG_appid.text "
               ],
-              "timeoutInMillisecond": 10000
+              "timeoutInMillisecond": 1000000
             }
           ]
         ],
