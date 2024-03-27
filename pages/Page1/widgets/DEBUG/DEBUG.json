@@ -76,7 +76,7 @@
     "widgetId": "ysbzx38t52",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": true,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],

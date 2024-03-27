@@ -1,0 +1,7 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"employmentreq": {
+		"isemploye": "{{RadioGroup1.selectedOptionValue}}",
+		"isregistered": "{{RadioGroup2.selectedOptionValue}}"
+	}
+}}

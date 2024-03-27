@@ -55,7 +55,7 @@
             "placement": "CENTER"
         },
         "groupButtonvkbihwhcia": {
-            "onClick": "{{Application.run();\napp_info.run()}}",
+            "onClick": "{{getapp.run()}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "kakgk6gasm",

@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 11,
-    "widgetName": "RadioGroup1",
+    "widgetName": "RadioGroup1Copy",
     "displayName": "Radio Group",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
     "searchTags": ["choice"],
@@ -17,19 +17,16 @@
     "parentColumnSpace": 18.53125,
     "dynamicTriggerPathList": [],
     "leftColumn": 8,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "label"}
-    ],
+    "dynamicBindingPathList": [{"key": "accentColor"}],
     "labelPosition": "Top",
     "options": [
         {
             "label": "Yes",
-            "value": "Yes"
+            "value": "Y"
         },
         {
             "label": "No",
-            "value": "No"
+            "value": "N"
         }
     ],
     "isDisabled": false,
@@ -40,12 +37,12 @@
     "isDeprecated": false,
     "rightColumn": 28,
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "a4e6uk2fo9",
+    "widgetId": "ke23hbrc0c",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
-    "label": "Is {{qual_person.selectedOptionLabel}} Currently Employed?",
+    "label": "Is {Primary Applicant} Currently Employed?",
     "version": 1,
-    "parentId": "abkwj2nz6q",
+    "parentId": "m8jcrpmkcz",
     "tags": ["Toggles"],
     "labelAlignment": "left",
     "renderMode": "CANVAS",

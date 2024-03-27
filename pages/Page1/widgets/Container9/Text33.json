@@ -1,6 +1,7 @@
 {
     "mobileBottomRow": 25,
     "widgetName": "Text33",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -23,23 +24,25 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"},
+        {"key": "isVisible"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{Primary Applicant} must enroll with an employment agency, or become employed to process this application",
+    "text": "{{qual_person.selectedOptionLabel}} must enroll with an employment agency, or become employed to process this application",
     "key": "66akn8ppz0",
     "isDeprecated": false,
     "rightColumn": 55,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "vnaqa6mmoh",
+    "widgetId": "gcl4i1c0nr",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": "{{RadioGroup2.selectedOptionValue===\"N\"}}",
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "q7ecnoyi4k",
+    "parentId": "abkwj2nz6q",
     "tags": [
         "Suggested",
         "Content"

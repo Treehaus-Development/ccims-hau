@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 5,
-    "bottomRow": 37,
+    "bottomRow": 49,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,19 +27,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Program Limit: 10000\n\nAdditional Funding: \n\nRemaining Funds: 10000\n\nMonthly Rent:\n\n50% 6 Month Rent: \n\nTotal Exceeds Remaining Funds?\n\n6 Month Benefit Award: \n\nMonthly Payment Amount:\n\n",
+    "text": "Program Limit: 10000\n\nPrior Funding:\n\nAdditional Funding: \n\nRemaining Funds: 10000\n\nMonthly Rent:\n\nQualified Parties:  1/1\n\nQualified Rent:\n\n50% of 6 Months Qualified Rent: \n\nTotal Exceeds Remaining Funds?\n\n6 Month Benefit Award: \n\nMonthly Payment Amount:\n\n",
     "key": "7cn5x9nvl5",
     "isDeprecated": false,
     "rightColumn": 52,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "m3l5n4t0gv",
+    "widgetId": "z1e9msh8jl",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "t7a4iq2ntk",
+    "parentId": "7mcg6d3cap",
     "tags": [
         "Suggested",
         "Content"
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 37,
+    "originalBottomRow": 49,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

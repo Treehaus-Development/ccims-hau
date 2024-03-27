@@ -1,9 +1,5 @@
-{
-	"stage": "elegibility",
-	"consent": {{appsmith.store.consent}},
-	"elegibility": {{appsmith.store.elegibility}},
-	"employment": {{appsmith.store.employment}},
-	"household": {{appsmith.store.household}},
-	"housing": {{appsmith.store.housing}},
-	"assistance":{{appsmith.store.assistance}}
-}
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"consent": {{JSONForm5.formData}}
+	
+}}

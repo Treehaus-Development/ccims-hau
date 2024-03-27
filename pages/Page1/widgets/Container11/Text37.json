@@ -1,6 +1,7 @@
 {
+    "needsErrorInfo": false,
     "mobileBottomRow": 4,
-    "widgetName": "Text5",
+    "widgetName": "Text37",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -17,7 +18,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 18.953125,
+    "parentColumnSpace": 18.90625,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -27,19 +28,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Household Information",
-    "key": "t95tzdbu3f",
+    "text": "Assign & Submit",
+    "key": "sf0eumdtlz",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 16,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "vhgmcwpgal",
+    "widgetId": "98bybg5hqj",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "ql4vumgprd",
+    "parentId": "r00911c69y",
     "tags": [
         "Suggested",
         "Content"
