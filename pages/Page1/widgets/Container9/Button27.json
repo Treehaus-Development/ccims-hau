@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 30,
     "widgetName": "Button27",
-    "onClick": "{{update_employmentreq.run();\nstoreValue('empreqcompleted', true);}}",
+    "onClick": "{{update_employmentreq.run();\nstoreValue('empreqcompleted', 'true');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

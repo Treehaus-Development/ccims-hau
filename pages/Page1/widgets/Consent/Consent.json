@@ -78,7 +78,7 @@
     "widgetId": "2m1l531ke1",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{appsmith.store.empreqcompleted !== undefined && getapp.data.application[0].application.stage === \"eligibility\"}}",
+    "isVisible": "{{appsmith.store.empreqcompleted === \"true\" && getapp.data.application[0].application.stage === \"eligibility\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],

@@ -80,7 +80,7 @@
     "widgetId": "s3mswpcz1z",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{JSONForm5.formData.elegibilitystatus !== false && appsmith.store.eligibilitycompleted === true  }}",
+    "isVisible": "{{JSONForm5.formData.elegibilitystatus === false && appsmith.store.eligibilitycompleted === true  }}",
     "version": 1,
     "parentId": "q79jtt5648",
     "tags": ["Layout"],

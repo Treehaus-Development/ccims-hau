@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 20,
     "widgetName": "Button14",
-    "onClick": "{{update_consent.run().then(() => {\n  showAlert('Consent Forms Transmitted', 'success');\n  storeValue('consenttransmitted', true);\n});}}",
+    "onClick": "{{update_consent.run().then(() => {\n  showAlert('Consent Forms Transmitted', 'success');\n  storeValue('consenttransmitted', 'true');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

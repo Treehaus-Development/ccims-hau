@@ -80,7 +80,7 @@
     "widgetId": "oqyom0a34p",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{appsmith.store.consenttransmitted !== undefined && getapp.data.application[0].application.stage === \"eligibility\"}}",
+    "isVisible": "{{appsmith.store.consenttransmitted === \"true\" && getapp.data.application[0].application.stage === \"eligibility\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
