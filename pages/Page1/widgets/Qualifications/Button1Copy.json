@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 12,
     "widgetName": "Button1Copy",
-    "onClick": "{{showModal('Modal2');\nstoreValue('Application.data.Application.Elegibility.PrimaryApplicant', qual_person.selectedOptionValue);}}",
+    "onClick": "{{showModal('Modal2');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
