@@ -5,7 +5,7 @@
     "widgetName": "Button1Copy",
     "onClick": "{{showModal('Modal2');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -24,10 +24,11 @@
     "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "isDisabled"}
     ],
     "text": "Launch Questionnaire",
-    "isDisabled": false,
+    "isDisabled": "{{qual_person.isValid}}",
     "key": "8qn6dn0oaj",
     "isDeprecated": false,
     "rightColumn": 38,
