@@ -4,7 +4,7 @@
     "widgetName": "Consent",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Container",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 104,
-    "bottomRow": 129,
+    "topRow": 108,
+    "bottomRow": 133,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -25,8 +25,7 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "isVisible"}
+        {"key": "boxShadow"}
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -78,7 +77,7 @@
     "widgetId": "2m1l531ke1",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{appsmith.store.empreqcompleted === \"true\" && getapp.data.application[0].application.stage === \"eligibility\"}}",
+    "isVisible": false,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],

@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 30,
     "widgetName": "Button27",
-    "onClick": "{{update_employmentreq.run().then(() => {\n  storeValue('empreqcompleted', 'true');\n});}}",
+    "onClick": "{{update_employmentreq.run().then(() => {\n Container9.setVisibility(false);Consent.setVisibility(true);\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -4,7 +4,7 @@
     "widgetName": "Container9",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Container",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 71,
-    "bottomRow": 103,
+    "topRow": 75,
+    "bottomRow": 107,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -25,8 +25,7 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "isVisible"}
+        {"key": "boxShadow"}
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -78,7 +77,7 @@
     "widgetId": "ovqy7ky87d",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{appsmith.store.eligibilitycompleted === \"true\" && getapp.data.application[0].application.stage === \"eligibility\"}}",
+    "isVisible": false,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
