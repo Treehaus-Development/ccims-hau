@@ -4,8 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 12,
     "widgetName": "Button26",
-    "onClick": "{{submit_eligibility.run().then(() => {\n  getapp.run();\n});}}",
+    "onClick": "{{submit_eligibility.run().then(() => {\n  getapp.run();Container11.setVisibility(false)\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{closeModal('Modal2');\nstoreValue('eligibilitycompleted', 'true');\nupdate_elegibility.run();}}",
+    "onSubmit": "{{storeValue('eligibilitycompleted', 'true');\nupdate_elegibility.run().then(() => {\n  closeModal('Modal2');\n});}}",
     "topRow": 5,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

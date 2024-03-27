@@ -31,6 +31,7 @@
     "mobileBottomRow": 15,
     "widgetName": "Select2",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 15,
@@ -40,20 +41,7 @@
     "parentColumnSpace": 18.90625,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "[\n  {\n    \"name\": \"Igor\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Ivanna\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Khrystyna\",\n    \"code\": \"RED\"\n  }\n]",
     "key": "ywoej38a6m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
