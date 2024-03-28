@@ -4,7 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 44,
     "widgetName": "Button29",
+    "onClick": "{{Documents.setVisibility(false);Container1.setVisibility(true)}}",
     "buttonColor": "#22c55e",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -19,7 +21,7 @@
     "mobileRightColumn": 47,
     "animateLoading": true,
     "parentColumnSpace": 18.90625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 31,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Submit Application",
