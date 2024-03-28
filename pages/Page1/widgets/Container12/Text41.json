@@ -1,6 +1,7 @@
 {
+    "needsErrorInfo": false,
     "mobileBottomRow": 4,
-    "widgetName": "Text16",
+    "widgetName": "Text41",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -9,7 +10,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 8,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,7 +18,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 18.875,
+    "parentColumnSpace": 18.90625,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -27,19 +28,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Approval Requested",
-    "key": "t95tzdbu3f",
+    "text": "Submit Application",
+    "key": "hv5hbejftu",
     "isDeprecated": false,
     "rightColumn": 16,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "gwjzugo529",
+    "widgetId": "ianhe1qdjq",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "0werddem8a",
+    "parentId": "pyzzyxyyne",
     "tags": [
         "Suggested",
         "Content"
@@ -52,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 8,
+    "originalBottomRow": 4,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }
