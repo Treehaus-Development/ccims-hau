@@ -43,7 +43,7 @@
     "widgetId": "sa1rdqk80w",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
-    "label": "Is {{qual_person.selectedOptionLabel}} Currently Employed?",
+    "label": "Is {{getapp.data.application[0].application.qualifyingperson}} Currently Employed?",
     "version": 1,
     "parentId": "a9c3zrlljc",
     "tags": ["Toggles"],

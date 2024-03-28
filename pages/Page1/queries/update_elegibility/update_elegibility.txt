@@ -1,5 +1,6 @@
 {"application":{
 	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
-	"elegibility": {{JSONForm5.formData}}
+	"elegibility": {{JSONForm5.formData}},
+	"qualifyingperson": "{{qual_person.selectedOptionLabel}}"
 	
 }}

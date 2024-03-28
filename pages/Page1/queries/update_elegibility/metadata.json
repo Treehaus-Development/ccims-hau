@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"elegibility\": {{JSONForm5.formData}}\n\t\n}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"elegibility\": {{JSONForm5.formData}},\n\t\"qualifyingperson\": \"{{qual_person.selectedOptionLabel}}\"\n\t\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -64,7 +64,8 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
-      "JSONForm5.formData"
+      "JSONForm5.formData",
+      "qual_person.selectedOptionLabel"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
