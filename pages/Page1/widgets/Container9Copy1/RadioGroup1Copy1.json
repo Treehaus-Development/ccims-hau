@@ -12,14 +12,15 @@
     "type": "RADIO_GROUP_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 36,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{getapp.data.application[0].application.employmentreq.isemploye}}",
     "animateLoading": true,
     "parentColumnSpace": 18.53125,
     "dynamicTriggerPathList": [],
     "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "label"}
+        {"key": "label"},
+        {"key": "defaultOptionValue"}
     ],
     "labelPosition": "Top",
     "options": [

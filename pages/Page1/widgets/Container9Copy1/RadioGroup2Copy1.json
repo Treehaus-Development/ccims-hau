@@ -13,7 +13,7 @@
     "type": "RADIO_GROUP_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 36,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{getapp.data.application[0].application.employmentreq.isregistered}}",
     "animateLoading": true,
     "parentColumnSpace": 18.53125,
     "dynamicTriggerPathList": [],
@@ -21,7 +21,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "isVisible"},
-        {"key": "label"}
+        {"key": "label"},
+        {"key": "defaultOptionValue"}
     ],
     "labelPosition": "Top",
     "options": [
