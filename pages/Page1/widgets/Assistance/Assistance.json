@@ -77,7 +77,7 @@
     "widgetId": "w8n22grfno",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],

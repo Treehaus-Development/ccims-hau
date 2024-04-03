@@ -41,7 +41,7 @@
     "parentColumnSpace": 18.90625,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Igor\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Ivanna\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Khrystyna\",\n    \"code\": \"RED\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"Igor\",\n    \"code\": \"Igor\"\n  },\n  {\n    \"name\": \"Ivanna\",\n    \"code\": \"Ivanna\"\n  },\n  {\n    \"name\": \"Khrystyna\",\n    \"code\": \"Khrystyna\"\n  }\n]",
     "key": "ywoej38a6m",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
