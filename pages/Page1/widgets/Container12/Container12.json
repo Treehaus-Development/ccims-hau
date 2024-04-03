@@ -21,6 +21,7 @@
     "mobileRightColumn": 24,
     "animateLoading": true,
     "parentColumnSpace": 19.21875,
+    "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -77,7 +78,7 @@
     "widgetId": "qxkecgf56y",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
