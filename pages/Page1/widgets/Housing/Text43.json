@@ -38,7 +38,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "iorhjgo4sh",
     "minWidth": 450,
-    "isVisible": "{{getapp.data.application[0].application.documents[0].label=== \"lease\"}}",
+    "isVisible": "{{getapp.data.application[0].application.documents !== undefined}}",
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,

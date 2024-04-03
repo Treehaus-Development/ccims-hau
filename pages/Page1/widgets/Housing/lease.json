@@ -30,7 +30,7 @@
     "widgetId": "9ijo5jxgov",
     "minWidth": 120,
     "isVisible": true,
-    "label": "Upload Lease Agreement",
+    "label": "Select File",
     "maxFileSize": 5,
     "dynamicTyping": true,
     "version": 1,
