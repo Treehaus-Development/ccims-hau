@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.950aa351208d9d9b2a695b3881ec3779.svg",
-    "topRow": 28,
+    "topRow": 30,
     "defaultCurrencyCode": "USD",
     "labelWidth": 5,
     "type": "CURRENCY_INPUT_WIDGET",
@@ -10,9 +10,11 @@
     "leftColumn": 44,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
+    "placeholderText": "",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -24,6 +26,7 @@
     "tags": ["Inputs"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 35,
     "mobileBottomRow": 42,
     "widgetName": "rent",
     "displayName": "Currency Input",
@@ -31,7 +34,7 @@
         "amount",
         "total"
     ],
-    "bottomRow": 35,
+    "bottomRow": 37,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -51,10 +54,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 35,
     "responsiveBehavior": "fill",
+    "originalTopRow": 28,
     "mobileLeftColumn": 11,
     "maxDynamicHeight": 9000,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{Number(getapp.data.application[0].application.housing.lease.rent)}}",
     "minDynamicHeight": 4
 }

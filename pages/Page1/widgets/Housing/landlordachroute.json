@@ -12,7 +12,8 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "isRequired"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -68,6 +69,6 @@
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{getapp.data.application[0].application.housing.landlord.routing}}",
     "minDynamicHeight": 4
 }

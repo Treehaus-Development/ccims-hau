@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 5,
-    "bottomRow": 49,
+    "bottomRow": 50,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Program Limit: 10000\n\nPrior Funding:\n\nAdditional Funding: \n\nRemaining Funds: 10000\n\nMonthly Rent:\n\nQualified Parties:  1/1\n\nQualified Rent:\n\n50% of 6 Months Qualified Rent: \n\nTotal Exceeds Remaining Funds?\n\n6 Month Benefit Award: \n\nMonthly Payment Amount:\n\n",
+    "text": "Program Limit: 10000\n\nPrior Funding: {{getapp.data.application[0].application.elegibility.prioramount}}\n\nAdditional Funding: {{ (JSONForm3.formData.deposit)}}\n\nRemaining Funds: 10000\n\nMonthly Rent:\n\nQualified Parties:  1/1\n\nQualified Rent:\n\n50% of 6 Months Qualified Rent: \n\nTotal Exceeds Remaining Funds?\n\n6 Month Benefit Award: \n\nMonthly Payment Amount:\n\n",
     "key": "7cn5x9nvl5",
     "isDeprecated": false,
     "rightColumn": 52,
@@ -52,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 49,
+    "originalBottomRow": 50,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

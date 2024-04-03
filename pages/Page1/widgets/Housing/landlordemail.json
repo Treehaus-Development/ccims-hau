@@ -9,7 +9,8 @@
     "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "EMAIL",
@@ -61,6 +62,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": true,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{getapp.data.application[0].application.housing.landlord.email}}",
     "minDynamicHeight": 4
 }

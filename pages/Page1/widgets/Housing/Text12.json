@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 6,
-    "bottomRow": 15,
+    "bottomRow": 21,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "text": "The information to the right is all required to service the Client's rental assistance requests.\n\n",
     "key": "t95tzdbu3f",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 9,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ls3yc25bgn",
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
+    "originalBottomRow": 21,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

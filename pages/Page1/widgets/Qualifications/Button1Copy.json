@@ -18,6 +18,7 @@
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 16,
+    "topRowBeforeCollapse": 9,
     "animateLoading": true,
     "parentColumnSpace": 19.734375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
@@ -33,6 +34,7 @@
     "rightColumn": 38,
     "isDefaultClickDisabled": true,
     "widgetId": "hp8gzwwt9q",
+    "bottomRowBeforeCollapse": 13,
     "minWidth": 120,
     "isVisible": false,
     "recaptchaType": "V3",
@@ -43,9 +45,11 @@
     "isLoading": false,
     "mobileTopRow": 8,
     "responsiveBehavior": "hug",
+    "originalTopRow": 9,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
+    "originalBottomRow": 13,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

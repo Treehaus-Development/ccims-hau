@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 38,
     "widgetName": "landlordeft",
+    "dynamicPropertyPathList": [{"key": "defaultSwitchState"}],
     "displayName": "Switch",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.afbd826fee9d09b12c5cde30a8c6fe62.svg",
     "searchTags": ["boolean"],
@@ -16,7 +17,10 @@
     "parentColumnSpace": 18.953125,
     "dynamicTriggerPathList": [],
     "leftColumn": 20,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "defaultSwitchState"}
+    ],
     "labelPosition": "Left",
     "isDisabled": false,
     "key": "xd409ocbfk",
@@ -27,7 +31,7 @@
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "label": "Requesting EFT",
-    "defaultSwitchState": false,
+    "defaultSwitchState": "{{getapp.data.application[0].application.housing.landlord.eft}}",
     "version": 1,
     "parentId": "itefa9koep",
     "tags": ["Toggles"],
