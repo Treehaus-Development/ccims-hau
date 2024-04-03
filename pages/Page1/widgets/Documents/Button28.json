@@ -27,7 +27,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Proceed",
+    "text": "Save and Return to Start",
     "isDisabled": false,
     "key": "dchoszv0dq",
     "isDeprecated": false,

@@ -26,7 +26,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Proceed",
+    "text": "Next",
     "isDisabled": false,
     "key": "bvm6p7g3ga",
     "isDeprecated": false,

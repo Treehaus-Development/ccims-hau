@@ -27,7 +27,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Proceed",
+    "text": "Next",
     "isDisabled": false,
     "key": "gavb55frex",
     "isDeprecated": false,
