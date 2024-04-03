@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button9",
-    "onClick": "{{update_housing.run().then(() => {});}}",
+    "onClick": "{{update_housing.run().then(() => {\n  Housing.setVisibility(false);\n\tHousehold_Info.setVisibility(true)\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
