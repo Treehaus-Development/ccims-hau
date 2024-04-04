@@ -3,7 +3,7 @@
 	"stage": "consentform",
 	"casemanager": {
  "name": "{{Select2.selectedOptionLabel}}",
-	"id": {{Select2.selectedOptionValue}},
+	"id": {{Select2.selectedOptionValue}},},
 	"elegibilityoverride": {{JSONForm5.formData.elegibilitystatus}}
 	}
 }
