@@ -1,7 +1,9 @@
 {"application":{
 	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
 	"stage": "consentform",
-	"casemanager": "{{Select2.selectedOptionValue}}",
+	"casemanager": {
+ "name": "{{Select2.selectedOptionLabel}}",
+	"id": {{Select2.selectedOptionValue}},
 	"elegibilityoverride": {{JSONForm5.formData.elegibilitystatus}}
 	}
 }

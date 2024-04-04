@@ -87,10 +87,10 @@
     "isLoading": false,
     "mobileTopRow": 422,
     "responsiveBehavior": "fill",
-    "originalTopRow": 507,
+    "originalTopRow": 471,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 553,
+    "originalBottomRow": 517,
     "minDynamicHeight": 10
 }

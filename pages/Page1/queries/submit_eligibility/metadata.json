@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"stage\": \"consentform\",\n\t\"casemanager\": \"{{Select2.selectedOptionValue}}\",\n\t\"elegibilityoverride\": {{JSONForm5.formData.elegibilitystatus}}\n\t}\n}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"stage\": \"consentform\",\n\t\"casemanager\": {\n \"name\": \"{{Select2.selectedOptionLabel}}\",\n\t\"id\": {{Select2.selectedOptionValue}},\n\t\"elegibilityoverride\": {{JSONForm5.formData.elegibilitystatus}}\n\t}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -65,6 +65,7 @@
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
       "JSONForm5.formData.elegibilitystatus",
+      "Select2.selectedOptionLabel",
       "Select2.selectedOptionValue"
     ],
     "userSetOnLoad": false,
