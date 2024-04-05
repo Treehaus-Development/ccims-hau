@@ -175,7 +175,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 142,
+    "originalBottomRow": 157,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -588,20 +588,7 @@
                         "originalIdentifier": "customField1",
                         "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_data.sourceData, household_data.formData, household_data.fieldState)}}",
                         "children": {},
-                        "options": [
-                            {
-                                "label": "Blue",
-                                "value": "BLUE"
-                            },
-                            {
-                                "label": "Green",
-                                "value": "GREEN"
-                            },
-                            {
-                                "label": "Red",
-                                "value": "RED"
-                            }
-                        ],
+                        "options": "[{\"label\": \"None\",\"value\": \"None\"},\n{\"label\": \"High School/GED\",\"value\": \"High School/GED\"},\n{\"label\": \"Vocational/Trade School\",\"value\": \"Vocational/Trade School\"},\n{\"label\": \"Some College\",\"value\": \"Some College\"},\n{\"label\": \"Bachelors Degree\",\"value\": \"Bachelors Degree\"},\n{\"label\": \"Graduate Degree\",\"value\": \"Graduate Degree\"},\n{\"label\": \"Post-Graduate\",\"value\": \"Post-Graduate\"},\n{\"label\": \"Client Refused To Answer\",\"value\": \"Client Refused To Answer\"},\n{\"label\": \"Unknown\",\"value\": \"Unknown\"}]",
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": "",
