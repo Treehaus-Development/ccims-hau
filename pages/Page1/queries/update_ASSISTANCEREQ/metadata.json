@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "update_household",
+    "name": "update_ASSISTANCEREQ",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"household\": {{household_data.formData}}\n}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"assistance\": {{JSONForm3.formData}}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -64,15 +64,15 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
-      "household_data.formData"
+      "JSONForm3.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-03-25T14:53:07Z"
+    "createdAt": "2024-04-05T15:47:36Z"
   },
-  "id": "Page1_update_household",
+  "id": "Page1_update_ASSISTANCEREQ",
   "deleted": false,
-  "gitSyncId": "65b2c8ac18b3ec7241c8bd7d_66018fd34b59877d57fc2c2d"
+  "gitSyncId": "65b2c8ac18b3ec7241c8bd7d_66101d1861bf41047d7a0fa9"
 }

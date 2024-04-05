@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 102,
     "widgetName": "Button10",
-    "onClick": "{{Assistance.setVisibility(false);Documents.setVisibility(true);}}",
+    "onClick": "{{update_ASSISTANCEREQ.run().then(() => {\n  Assistance.setVisibility(false);Documents.setVisibility(true);\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
