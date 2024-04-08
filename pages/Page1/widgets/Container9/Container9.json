@@ -77,7 +77,7 @@
     "widgetId": "ovqy7ky87d",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
