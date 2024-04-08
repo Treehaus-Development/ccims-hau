@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 30,
     "widgetName": "Button27Copy",
-    "onClick": "{{update_employmentreq.run().then(() => {});Housing.setVisibility(true);Container9Copy1.setVisibility(false)}}",
+    "onClick": "{{update_employmentreq.run().then(() => {\n  storeValue('firstrun', 'true');Housing.setVisibility(true);Container9Copy1.setVisibility(false);\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
