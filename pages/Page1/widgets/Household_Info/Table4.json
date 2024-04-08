@@ -271,7 +271,7 @@
         "customColumn2": {
             "boxShadow": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('QualData').then(() => {\n  get_docs.run();\n});}}",
+            "onClick": "{{getapp.run().then(() => {\n  showModal('QualData');\n});}}",
             "buttonColor": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

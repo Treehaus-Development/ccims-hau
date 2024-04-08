@@ -1,4 +1,4 @@
 {"application":{
 	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
-	"assistance": {{JSONForm3.formData}}
+	"assistance": {{JSONForm6.formData}}
 }}

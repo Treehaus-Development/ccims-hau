@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"assistance\": {{JSONForm3.formData}}\n}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"assistance\": {{JSONForm6.formData}}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -64,7 +64,7 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
-      "JSONForm3.formData"
+      "JSONForm6.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
