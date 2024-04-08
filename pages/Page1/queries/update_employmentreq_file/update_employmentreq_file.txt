@@ -1,7 +1,0 @@
-{"application":{
-	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
- "documents":[{
-	"label":"{{RadioGroup1.selectedOptionValue === true? "Primary Applicant Proof of Employment":"Primary Applicant Proof of Employment Agency Registration"}}",
-	"value":""
-}]
-}}

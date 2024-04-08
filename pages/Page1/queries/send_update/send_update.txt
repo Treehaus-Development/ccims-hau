@@ -1,9 +1,0 @@
-{
-	"stage": {{appsmith.store.stage}},
-	"consent": {{appsmith.store.consent}},
-	"elegibility": {{appsmith.store.elegibility}},
-	"employment": {{appsmith.store.employment}},
-	"household": {{appsmith.store.household}},
-	"housing": {{appsmith.store.housing}},
-	"assistance":{{appsmith.store.assistance}}
-}

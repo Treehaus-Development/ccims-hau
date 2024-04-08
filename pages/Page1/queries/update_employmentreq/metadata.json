@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"employmentreq\": {\n\t\t\"isemploye\": \"{{RadioGroup1.selectedOptionValue}}\",\n\t\t\"isregistered\": \"{{RadioGroup2.selectedOptionValue}}\"\n\t}\n}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"employmentreq\": {\n\t\t\"isemploye\": \"{{RadioGroup1.selectedOptionValue}}\",\n\t\t\"isregistered\": \"{{RadioGroup2.selectedOptionValue}}\"\n\t},\n \"documents\":[{\n\t\"label\":\"{{RadioGroup1.selectedOptionValue === true? \"Primary Applicant Proof of Employment\":\"Primary Applicant Proof of Employment Agency Registration\"}}\",\n\t\"value\":\"\"\n}]\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -65,6 +65,7 @@
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
       "RadioGroup1.selectedOptionValue",
+      "RadioGroup1.selectedOptionValue === true? \"Primary Applicant Proof of Employment\":\"Primary Applicant Proof of Employment Agency Registration\"",
       "RadioGroup2.selectedOptionValue"
     ],
     "userSetOnLoad": false,

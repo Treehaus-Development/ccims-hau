@@ -3,5 +3,9 @@
 	"employmentreq": {
 		"isemploye": "{{RadioGroup1.selectedOptionValue}}",
 		"isregistered": "{{RadioGroup2.selectedOptionValue}}"
-	}
+	},
+ "documents":[{
+	"label":"{{RadioGroup1.selectedOptionValue === true? "Primary Applicant Proof of Employment":"Primary Applicant Proof of Employment Agency Registration"}}",
+	"value":""
+}]
 }}
