@@ -78,7 +78,7 @@
     "widgetId": "3efrw8tee1",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{getapp.data.application[0].application.stage === \"application\" && appsmith.store.firstrun === undefined}}",
+    "isVisible": "{{getapp.data.application[0].application.stage === \"application\" && appsmith.store.firstrun != \"true\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
