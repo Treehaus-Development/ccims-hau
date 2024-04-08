@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 9,
     "widgetName": "Button36",
-    "onClick": "{{Upload_Lease.run().then(() => {\n  showAlert('Lease Uploaded Successfully', 'success');\n});}}",
+    "onClick": "{{Upload_Lease.run().then(() => {\n  showAlert('Lease Uploaded Successfully', 'success');\n  update_lease.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Button",

@@ -1,0 +1,8 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+documents:[{
+	"label":"{{Input2.text}}",
+	"value":"{{Upload_File.data.url.split("/").pop()}}"
+}]
+}
+}

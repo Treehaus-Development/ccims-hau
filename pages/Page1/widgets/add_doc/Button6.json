@@ -3,9 +3,12 @@
     "boxShadow": "none",
     "mobileBottomRow": 29,
     "widgetName": "Button6",
-    "onClick": "{{get_file_uuid.run().then(() => {\n  Upload_File.run();\n});\nget_docs.run().then(() => {\n  showModal('qual_docs');\n});}}",
+    "onClick": "{{Upload_File.run().then(() => {\n  update_file.run().then(() => {\n\t\ncloseModal('add_doc').then(() => {\n\t\nshowAlert('Upload Successful', '').then(() => {\n\t\n\tgetapp.run();})})})});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "isDisabled"}],
+    "dynamicPropertyPathList": [
+        {"key": "isDisabled"},
+        {"key": "onClick"}
+    ],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

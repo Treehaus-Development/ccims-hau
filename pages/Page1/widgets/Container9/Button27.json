@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 30,
     "widgetName": "Button27",
-    "onClick": "{{update_employmentreq.run().then(() => {\n Container9.setVisibility(false);Consent.setVisibility(true);\n});}}",
+    "onClick": "{{update_employmentreq.run().then(() => {\n Container9.setVisibility(false);Consent.setVisibility(true);\n});\nupdate_employmentreq_file.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
