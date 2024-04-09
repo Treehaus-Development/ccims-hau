@@ -88,7 +88,8 @@
         {"key": "schema.__root_schema__.children.contact.children.email.defaultValue"},
         {"key": "schema.__root_schema__.children.immigration.children.number.defaultValue"},
         {"key": "schema.__root_schema__.children.immigration.children.entrydate.defaultValue"},
-        {"key": "schema.__root_schema__.children.employment.children.customField2.defaultValue"}
+        {"key": "schema.__root_schema__.children.employment.children.customField2.defaultValue"},
+        {"key": "schema.__root_schema__.children.employment.children.customField1.defaultValue"}
     ],
     "showReset": false,
     "flexVerticalAlignment": "start",
@@ -599,7 +600,7 @@
                         "isRequired": false,
                         "isFilterable": false,
                         "isCustomField": true,
-                        "defaultValue": "{{List1.selectedItem.employment.education",
+                        "defaultValue": "{{((sourceData, formData, fieldState) => (List1.selectedItem.employment.education))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_data.sourceData, household_data.formData, household_data.fieldState)}}",
                         "dataType": "string",
                         "accessor": "education",
