@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 9,
-    "bottomRow": 45,
+    "bottomRow": 47,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Use the forms at the right to edit each household members data, when finished with each household member press the SAVE button at the bottom of the page. \n\nYou may scroll between household members by using the controls at the bottom of the page. \n\nWhen finished with all household members press the Next button to contenue. \n\nTo reset data back to the last save point press the Reload Data button. \n\n\n",
+    "text": "Use the list at the right to select a household members to edit their profle data in the form below, when finished with each household member press the SAVE button at the bottom of the page. \n\nYou may scroll between household members by using the controls at the bottom of the list. \n\nWhen finished with all household members press the Next button to contenue. \n\nTo reset data back to the last save point press the Reload Data button. \n\n\n",
     "key": "t95tzdbu3f",
     "isDeprecated": false,
     "rightColumn": 16,
