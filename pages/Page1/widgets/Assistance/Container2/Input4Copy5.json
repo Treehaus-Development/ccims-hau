@@ -63,6 +63,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{getapp.data.application[0].application.housing.lease.qualifiedparties}}",
+    "defaultText": "{{getapp.data.application[0].application.housing.lease.qualifyingadults}}",
     "minDynamicHeight": 4
 }

@@ -63,6 +63,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{getapp.data.application[0].application.housing.lease.totalparties}}",
+    "defaultText": "{{getapp.data.application[0].application.housing.lease.totaladults}}",
     "minDynamicHeight": 4
 }
