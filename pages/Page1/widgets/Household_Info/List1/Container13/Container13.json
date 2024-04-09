@@ -14,7 +14,7 @@
         "parent",
         "group"
     ],
-    "bottomRow": 8,
+    "bottomRow": 10,
     "dragDisabled": true,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -33,7 +33,7 @@
         "widgetName": "Canvas32",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 80,
+        "bottomRow": 100,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
