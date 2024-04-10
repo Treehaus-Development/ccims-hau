@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "DD-MM-YYYY",
+    "dateFormat": "MM-DD-YYYY",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
     "topRow": 19,
     "labelWidth": 5,
