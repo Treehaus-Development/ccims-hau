@@ -70,7 +70,7 @@
           }
         },
         "path": {
-          "data": "doc-{{getapp.data.application[0].application.id}}-lease-{{lease.files[0].name}}"
+          "data": "doc-{{getapp.data.application[0].application.id}}-lease-{{(Math.random() + 1).toString(36).substring(7)}}.{{FilePicker1.files[0].name.split(\".\").pop()}}"
         },
         "read": {
           "dataType": {
@@ -95,9 +95,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "(Math.random() + 1).toString(36).substring(7)",
+      "FilePicker1.files[0].name.split(\".\").pop()",
       "getapp.data.application[0].application.id",
-      "lease.files[0]",
-      "lease.files[0].name"
+      "lease.files[0]"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
