@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Case Specialist: {{getapp.data.application[0].application.casemanager}}",
+    "text": "Case Specialist: {{getapp.data.application[0].application.casemanager.name}}",
     "key": "afn6j9kbpe",
     "isDeprecated": false,
     "rightColumn": 64,

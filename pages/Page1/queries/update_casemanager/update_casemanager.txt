@@ -1,0 +1,27 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"employmentreq": {
+		"isemploye": "{{RadioGroup1.selectedOptionValue}}",
+		"isregistered": "{{RadioGroup2.selectedOptionValue}}"
+	},
+ "housing": {
+	"landlord": {
+	"name": "{{landlordname.text}}",
+	"address": "{{landlordaddress.text}}",
+	"phone": {{landlordphone.text || 0}},
+	"email": "{{landlordemail.text}}",
+	"eft": {{landlordeft.isSwitchedOn}},
+	"routing": "{{landlordachroute.text}}",
+	"account": "{{landlordachaccount.text}}"
+},
+ "lease": {
+ "startdate": "{{leasestart.selectedDate}}",
+ "enddate": "{{leaseend.selectedDate}}",
+	 "rent": {{rent.text}},
+ "month2month": {{leasem2m.isSwitchedOn}},
+	 "totaladults": {{leaseadults.text}},
+	 "qualifyingadults": {{leasequaladults.text}}
+}
+},
+ "assistance": {{JSONForm6.formData}}
+}}

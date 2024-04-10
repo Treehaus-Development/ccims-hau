@@ -4,7 +4,7 @@
     "widgetName": "Household_Info",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Container",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -12,7 +12,7 @@
         "parent",
         "group"
     ],
-    "topRow": 308,
+    "topRow": 315,
     "bottomRow": 489,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
@@ -25,7 +25,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "isVisible"}
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -33,7 +34,7 @@
         "widgetName": "Canvas6",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 1810,
+        "bottomRow": 1740,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -72,12 +73,12 @@
     "key": "gettkw4dow",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ce8eohfi0k",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": "{{getapp.data.application[0].application.stage === \"application\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
@@ -85,7 +86,7 @@
     "isLoading": false,
     "mobileTopRow": 46,
     "responsiveBehavior": "fill",
-    "originalTopRow": 308,
+    "originalTopRow": 315,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,

@@ -5,7 +5,7 @@
     "widgetName": "Documents",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Container",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -13,8 +13,8 @@
         "parent",
         "group"
     ],
-    "topRow": 623,
-    "bottomRow": 693,
+    "topRow": 624,
+    "bottomRow": 700,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -26,7 +26,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "isVisible"}
     ],
     "children": [{
         "needsErrorInfo": false,
@@ -35,7 +36,7 @@
         "widgetName": "Canvas28",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 700,
+        "bottomRow": 760,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -79,7 +80,7 @@
     "widgetId": "wzt9lorv8u",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": "{{getapp.data.application[0].application.stage === \"application\"}}",
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],
@@ -87,10 +88,10 @@
     "isLoading": false,
     "mobileTopRow": 422,
     "responsiveBehavior": "fill",
-    "originalTopRow": 623,
+    "originalTopRow": 624,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 693,
+    "originalBottomRow": 700,
     "minDynamicHeight": 10
 }
