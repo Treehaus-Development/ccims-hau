@@ -57,8 +57,8 @@
     "originalTopRow": 28,
     "mobileLeftColumn": 11,
     "maxDynamicHeight": 9000,
-    "decimals": 0,
+    "decimals": 2,
     "iconAlign": "left",
-    "defaultText": "{{Number(getapp.data.application[0].application.housing.lease.rent)}}",
+    "defaultText": "{{getapp.data.application[0].application.housing.lease.rent.replace(/[^\\d\\.]/g, \"\")}}",
     "minDynamicHeight": 4
 }

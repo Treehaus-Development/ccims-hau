@@ -17,7 +17,7 @@
  "lease": {
  "startdate": "{{leasestart.selectedDate}}",
  "enddate": "{{leaseend.selectedDate}}",
-	 "rent": {{rent.text}},
+	 "rent": {{rent.value}},
  "month2month": {{leasem2m.isSwitchedOn}},
 	 "totaladults": {{leaseadults.text}},
 	 "qualifyingadults": {{leasequaladults.text}}

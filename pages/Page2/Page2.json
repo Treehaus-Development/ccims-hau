@@ -1,48 +1,33 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 7620,
+          "bottomRow": 760,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 75,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 770,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_getapp",
-              "name": "getapp",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                " appsmith.URL.queryParams.application || DEBUG_appid.text "
-              ],
-              "timeoutInMillisecond": 1000000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
+        "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +37,5 @@
     "policies": []
   },
   "deleted": false,
-  "gitSyncId": "658e566a76a7bd1810191ddd_658e566a76a7bd1810191ddf"
+  "gitSyncId": "65b2c8ac18b3ec7241c8bd7d_6616c142d61198757a3187f3"
 }
