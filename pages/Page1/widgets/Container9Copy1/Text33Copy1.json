@@ -30,7 +30,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{getapp.data.application[0].application.qualifyingpersonl}} must enroll with an employment agency, or become employed to process this application",
+    "text": "{{getapp.data.application[0].application.qualifyingperson}} must enroll with an employment agency, or become employed to process this application",
     "key": "66akn8ppz0",
     "isDeprecated": false,
     "rightColumn": 55,
