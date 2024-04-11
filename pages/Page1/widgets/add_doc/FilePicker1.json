@@ -31,7 +31,7 @@
     "minWidth": 120,
     "isVisible": true,
     "label": "Select File",
-    "maxFileSize": 5,
+    "maxFileSize": "200",
     "dynamicTyping": true,
     "version": 1,
     "fileDataType": "Base64",

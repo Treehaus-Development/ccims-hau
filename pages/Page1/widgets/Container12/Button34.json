@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 25,
     "widgetName": "Button34",
-    "onClick": "{{Container12.setVisibility(false);Container1.setVisibility(true)}}",
+    "onClick": "{{submit_application.run().then(() => {\n  getapp.run();Container12.setVisibility(false)\n});}}",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

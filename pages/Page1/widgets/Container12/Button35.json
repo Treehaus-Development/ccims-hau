@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 25,
     "widgetName": "Button35",
-    "onClick": "{{Documents.setVisibility(true);Container12.setVisibility(false)}}",
+    "onClick": "{{Documents.setVisibility(true);Container12.setVisibility(false);Assistance.setVisibility(true);Household_Info.setVisibility(true);Housing.setVisibility(true);Container9Copy1.setVisibility(true)}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

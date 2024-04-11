@@ -1,0 +1,6 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"stage": "initial",
+	"initialcasenote": {{RichTextEditor1.text}}
+	}
+}
