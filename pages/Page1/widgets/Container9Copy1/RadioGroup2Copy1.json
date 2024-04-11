@@ -53,7 +53,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "ow825xzdah",
-    "isVisible": "{{RadioGroup1.selectedOptionValue===\"No\"}}",
+    "isVisible": "{{RadioGroup1Copy1.selectedOptionValue===\"No\"}}",
     "label": "Is {{getapp.data.application[0].application.qualifyingperson}} Currently Enrolled with an Employment Agency?",
     "version": 1,
     "parentId": "a9c3zrlljc",

@@ -397,7 +397,7 @@
                 "dataType": "object",
                 "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                 "accessor": "appfees",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Application Fees",
                 "originalIdentifier": "appfees",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
@@ -421,7 +421,7 @@
                         "children": {},
                         "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
                         "position": 0,
-                        "isDisabled": false,
+                        "isDisabled": true,
                         "sourceData": false,
                         "fieldType": "Select"
                     },
@@ -444,13 +444,13 @@
                         "isSpellCheck": false,
                         "position": 1,
                         "currencyCountryCode": "USD",
-                        "isDisabled": false,
+                        "isDisabled": true,
                         "sourceData": "",
                         "fieldType": "Currency Input"
                     }
                 },
                 "position": 0,
-                "isDisabled": false,
+                "isDisabled": true,
                 "sourceData": {
                     "request": false,
                     "amount": ""
