@@ -57,11 +57,8 @@
         {"key": "schema.__root_schema__.children.utilities.cellBorderRadius"},
         {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.appfees.children.request.borderRadius"},
-        {"key": "schema.__root_schema__.children.deposit.children.request.borderRadius"},
         {"key": "schema.__root_schema__.children.recurringrent.label"},
-        {"key": "schema.__root_schema__.children.recurringrent.children.amount.defaultValue"},
-        {"key": "schema.__root_schema__.children.arrears.children.request.borderRadius"},
-        {"key": "schema.__root_schema__.children.utilities.children.request.borderRadius"}
+        {"key": "schema.__root_schema__.children.recurringrent.children.amount.defaultValue"}
     ],
     "showReset": false,
     "flexVerticalAlignment": "start",
@@ -203,13 +200,13 @@
                         "accessor": "request",
                         "isVisible": true,
                         "label": "Request",
-                        "alignWidget": "LEFT",
                         "originalIdentifier": "request",
                         "children": {},
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
                         "position": 0,
-                        "isDisabled": true,
+                        "isDisabled": false,
                         "sourceData": true,
-                        "fieldType": "Switch"
+                        "fieldType": "Radio Group"
                     },
                     "amount": {
                         "labelTextSize": "0.875rem",
@@ -265,7 +262,6 @@
                         "identifier": "request",
                         "boxShadow": "none",
                         "isRequired": false,
-                        "isFilterable": false,
                         "isCustomField": false,
                         "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.arrears.request))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
@@ -273,15 +269,22 @@
                         "accessor": "request",
                         "isVisible": true,
                         "label": "Request",
-                        "serverSideFiltering": false,
                         "originalIdentifier": "request",
-                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
+                        "options": [
+                            {
+                                "label": "Yes",
+                                "value": "Y"
+                            },
+                            {
+                                "label": "No",
+                                "value": "N"
+                            }
+                        ],
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
-                        "fieldType": "Select"
+                        "fieldType": "Radio Group"
                     },
                     "amount": {
                         "labelTextSize": "0.875rem",
@@ -336,7 +339,6 @@
                         "identifier": "request",
                         "boxShadow": "none",
                         "isRequired": false,
-                        "isFilterable": false,
                         "isCustomField": false,
                         "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.deposit.request))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
@@ -344,15 +346,22 @@
                         "accessor": "request",
                         "isVisible": true,
                         "label": "Request",
-                        "serverSideFiltering": false,
                         "originalIdentifier": "request",
-                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
+                        "options": [
+                            {
+                                "label": "Yes",
+                                "value": "Y"
+                            },
+                            {
+                                "label": "No",
+                                "value": "N"
+                            }
+                        ],
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
-                        "fieldType": "Select"
+                        "fieldType": "Radio Group"
                     },
                     "amount": {
                         "labelTextSize": "0.875rem",
@@ -478,7 +487,6 @@
                         "identifier": "request",
                         "boxShadow": "none",
                         "isRequired": false,
-                        "isFilterable": false,
                         "isCustomField": false,
                         "defaultValue": "{{getapp.data.application[0].application.assistance.arrears.}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
@@ -486,15 +494,13 @@
                         "accessor": "request",
                         "isVisible": true,
                         "label": "Request",
-                        "serverSideFiltering": false,
                         "originalIdentifier": "request",
-                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "children": {},
                         "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
-                        "fieldType": "Select"
+                        "fieldType": "Radio Group"
                     },
                     "amount": {
                         "labelTextSize": "0.875rem",
