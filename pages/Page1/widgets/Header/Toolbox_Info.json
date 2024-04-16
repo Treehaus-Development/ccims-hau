@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Head of Household: {{getapp.data.application[0].application.household[0].name}} Application ID: {{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+    "text": "Primary Applicant: {{getapp.data.application[0].application.qualifyingperson}} Application ID: {{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
     "key": "m3wcyk3l6x",
     "isDeprecated": false,
     "rightColumn": 64,
