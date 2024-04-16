@@ -77,9 +77,6 @@
         {"key": "schema.__root_schema__.children.employment.children.employername.isVisible"},
         {"key": "schema.__root_schema__.children.employment.children.monthlygross.isVisible"},
         {"key": "schema.__root_schema__.children.employment.children.status.defaultValue"},
-        {"key": "schema.__root_schema__.children.disability.children.status.borderRadius"},
-        {"key": "schema.__root_schema__.children.disability.children.ssiapplied.borderRadius"},
-        {"key": "schema.__root_schema__.children.disability.children.ssiapplied.isVisible"},
         {"key": "schema.__root_schema__.children.disability.children.ssiaward.isVisible"},
         {"key": "schema.__root_schema__.children.disability.children.amount.isVisible"},
         {"key": "sourceData"},
@@ -88,7 +85,8 @@
         {"key": "schema.__root_schema__.children.immigration.children.number.defaultValue"},
         {"key": "schema.__root_schema__.children.immigration.children.entrydate.defaultValue"},
         {"key": "schema.__root_schema__.children.employment.children.customField2.defaultValue"},
-        {"key": "schema.__root_schema__.children.employment.children.customField1.defaultValue"}
+        {"key": "schema.__root_schema__.children.employment.children.customField1.defaultValue"},
+        {"key": "schema.__root_schema__.children.disability.children.ssiapplied.isVisible"}
     ],
     "showReset": false,
     "flexVerticalAlignment": "start",
@@ -366,23 +364,20 @@
                         "identifier": "ssiapplied",
                         "boxShadow": "none",
                         "isRequired": false,
-                        "isFilterable": false,
                         "isCustomField": false,
                         "defaultValue": "{{List1.selectedItem.disability.ssiapplied}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "dataType": "boolean",
                         "accessor": "ssiapplied",
-                        "isVisible": "{{((sourceData, formData, fieldState) => (formData.disability.status))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                        "isVisible": "{{((sourceData, formData, fieldState) => (formData.disability.status === false))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "label": "Has Application been submitted to SSA?",
-                        "serverSideFiltering": false,
                         "originalIdentifier": "ssiapplied",
-                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": \"true\"\n  },\n  {\n    \"label\": \"No\",\n    \"value\": \"false\"\n  }\n]",
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
                         "position": 1,
                         "isDisabled": false,
                         "sourceData": false,
-                        "fieldType": "Select"
+                        "fieldType": "Radio Group"
                     },
                     "ssiaward": {
                         "labelTextSize": "0.875rem",
@@ -394,7 +389,7 @@
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "dataType": "boolean",
                         "accessor": "ssiaward",
-                        "isVisible": true,
+                        "isVisible": "{{((sourceData, formData, fieldState) => (formData.disability.ssiapplied))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "label": "Has SSI Been Awarded?",
                         "originalIdentifier": "ssiaward",
                         "children": {},
@@ -409,7 +404,6 @@
                         "identifier": "status",
                         "boxShadow": "none",
                         "isRequired": false,
-                        "isFilterable": false,
                         "isCustomField": false,
                         "defaultValue": "{{List1.selectedItem.disability.status}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
@@ -417,15 +411,22 @@
                         "accessor": "status",
                         "isVisible": true,
                         "label": "Status",
-                        "serverSideFiltering": false,
                         "originalIdentifier": "status",
-                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Disabled\",\n    \"value\": \"true\"\n  },\n  {\n    \"label\": \"Not Disabled\",\n    \"value\": \"false\"\n  }\n]",
+                        "options": [
+                            {
+                                "label": "Yes",
+                                "value": "Y"
+                            },
+                            {
+                                "label": "No",
+                                "value": "N"
+                            }
+                        ],
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
-                        "fieldType": "Select"
+                        "fieldType": "Radio Group"
                     }
                 },
                 "position": 7,
