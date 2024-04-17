@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "update_elegibility",
+    "name": "update_qual_override",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"elegibility\": {{JSONForm5.formData}},\n\t\"qualifyingperson\": {\n\t\"name\":\"{{qual_person.selectedOptionLabel}}\",\n\t\"id\": {{qual_person.selectedOptionValue}}\n}}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"qualifyingperson\": {\n\t\"name\":\"{{List1Copy.selectedItem.name}}\",\n\t\"id\": {{List1Copy.selectedItem.value}}\n}}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -64,17 +64,16 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
-      "JSONForm5.formData",
-      "qual_person.selectedOptionLabel",
-      "qual_person.selectedOptionValue"
+      "List1Copy.selectedItem.name",
+      "List1Copy.selectedItem.value"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-03-22T08:35:56Z"
+    "createdAt": "2024-04-17T21:43:14Z"
   },
-  "id": "Page1_update_elegibility",
+  "id": "Page1_update_qual_override",
   "deleted": false,
-  "gitSyncId": "65b2c8ac18b3ec7241c8bd7d_65fd42ec8a180405eae4448d"
+  "gitSyncId": "65b2c8ac18b3ec7241c8bd7d_66204272616409113a09fe11"
 }

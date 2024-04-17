@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 5,
-    "bottomRow": 12,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "text": "This application has been submitted to a supervisor for approval. To make changes to the application please contact your Supervisor. ",
     "key": "t95tzdbu3f",
     "isDeprecated": false,
-    "rightColumn": 27,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "k5zbo71dl2",
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 12,
+    "originalBottomRow": 9,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

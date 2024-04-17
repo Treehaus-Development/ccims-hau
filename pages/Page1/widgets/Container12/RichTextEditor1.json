@@ -11,7 +11,7 @@
         "rte"
     ],
     "topRow": 0,
-    "bottomRow": 20,
+    "bottomRow": 23,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "RICH_TEXT_EDITOR_WIDGET",

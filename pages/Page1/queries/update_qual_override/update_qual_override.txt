@@ -1,0 +1,6 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"qualifyingperson": {
+	"name":"{{List1Copy.selectedItem.name}}",
+	"id": {{List1Copy.selectedItem.value}}
+}}}
