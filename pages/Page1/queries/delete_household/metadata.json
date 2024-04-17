@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/test/ccims/ccdsd/hau/householdremove",
+      "path": "/v1/ccims/ccdsd/hau/householdremove",
       "headers": [
         {
           "key": "appid",
