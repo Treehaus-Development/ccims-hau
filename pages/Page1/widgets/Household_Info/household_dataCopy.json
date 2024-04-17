@@ -76,7 +76,6 @@
         {"key": "schema.__root_schema__.children.employment.children.employername.isVisible"},
         {"key": "schema.__root_schema__.children.employment.children.monthlygross.isVisible"},
         {"key": "schema.__root_schema__.children.employment.children.status.defaultValue"},
-        {"key": "schema.__root_schema__.children.disability.children.ssiaward.isVisible"},
         {"key": "schema.__root_schema__.children.disability.children.amount.isVisible"},
         {"key": "sourceData"},
         {"key": "title"},
@@ -84,8 +83,7 @@
         {"key": "schema.__root_schema__.children.immigration.children.number.defaultValue"},
         {"key": "schema.__root_schema__.children.immigration.children.entrydate.defaultValue"},
         {"key": "schema.__root_schema__.children.employment.children.customField2.defaultValue"},
-        {"key": "schema.__root_schema__.children.employment.children.customField1.defaultValue"},
-        {"key": "schema.__root_schema__.children.disability.children.ssiapplied.isVisible"}
+        {"key": "schema.__root_schema__.children.employment.children.customField1.defaultValue"}
     ],
     "showReset": false,
     "flexVerticalAlignment": "start",
@@ -368,7 +366,6 @@
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "dataType": "boolean",
                         "accessor": "ssiapplied",
-                        "isVisible": "{{((sourceData, formData, fieldState) => (formData.disability.status === false))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "label": "Has Application been submitted to SSA?",
                         "originalIdentifier": "ssiapplied",
                         "children": {},
@@ -388,7 +385,6 @@
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "dataType": "boolean",
                         "accessor": "ssiaward",
-                        "isVisible": "{{((sourceData, formData, fieldState) => (formData.disability.ssiapplied))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "label": "Has SSI Been Awarded?",
                         "originalIdentifier": "ssiaward",
                         "children": {},
@@ -412,16 +408,7 @@
                         "label": "Status",
                         "originalIdentifier": "status",
                         "children": {},
-                        "options": [
-                            {
-                                "label": "Yes",
-                                "value": "Y"
-                            },
-                            {
-                                "label": "No",
-                                "value": "N"
-                            }
-                        ],
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
@@ -671,7 +658,7 @@
                         "label": "Status",
                         "originalIdentifier": "status",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Employed\",\n    \"value\": \"true\"\n  },\n  {\n    \"label\": \"Unemployed\",\n    \"value\": \"false\"\n  }\n]",
+                        "options": "[\n  {\n    \"label\": \"Employed\",\n    \"value\": true\n  },\n  {\n    \"label\": \"Unemployed\",\n    \"value\": false\n  }\n]",
                         "position": 2,
                         "isDisabled": false,
                         "sourceData": false,
@@ -755,8 +742,6 @@
         {"key": "schema.__root_schema__.children.disability.children.ssiaward.defaultValue"},
         {"key": "schema.__root_schema__.children.employment.children.employername.isVisible"},
         {"key": "schema.__root_schema__.children.employment.children.monthlygross.isVisible"},
-        {"key": "schema.__root_schema__.children.disability.children.ssiapplied.isVisible"},
-        {"key": "schema.__root_schema__.children.disability.children.ssiaward.isVisible"},
         {"key": "schema.__root_schema__.children.disability.children.amount.isVisible"},
         {"key": "sourceData"}
     ],
