@@ -81,7 +81,7 @@
     "widgetId": "vp0ooqmd8e",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{getapp.data.application[0].application.qualifyingperson.id === undefined}}",
+    "isVisible": "{{getapp.data.application[0].application.qualifyingperson.id === undefined|| getapp.data.application[0].application.qualifyingperson.id === null}}",
     "version": 1,
     "parentId": "ql4vumgprd",
     "tags": ["Layout"],
