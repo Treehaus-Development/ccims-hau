@@ -71,7 +71,7 @@
       "household_dataCopy.formData"
     ],
     "userSetOnLoad": false,
-    "confirmBeforeExecute": false,
+    "confirmBeforeExecute": true,
     "policies": [],
     "userPermissions": [],
     "createdAt": "2024-04-17T20:16:55Z"
