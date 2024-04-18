@@ -4,7 +4,6 @@
 	"casemanager": {
  "name": "{{Select2.selectedOptionLabel}}",
 	"id": {{Select2.selectedOptionValue}},},
-	"elegibilityoverride": {{JSONForm5.formData.elegibilitystatus}},
-  "elegibilityoverridenote": "{{Input3.text}}"
+	"elegibilityoverride": {{JSONForm5.formData.elegibilitystatus}}
 	}
 }
