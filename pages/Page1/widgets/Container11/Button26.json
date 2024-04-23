@@ -6,7 +6,10 @@
     "widgetName": "Button26",
     "onClick": "{{submit_eligibility.run().then(() => {\n  getapp.run();Container11.setVisibility(false)\n});}}",
     "buttonColor": "#22c55e",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isDisabled"}
+    ],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -23,9 +26,12 @@
     "parentColumnSpace": 18.90625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 46,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "isDisabled"}
+    ],
     "text": "Submit Application",
-    "isDisabled": false,
+    "isDisabled": "{{Select2.selectedOptionValue < 30}}",
     "key": "gavb55frex",
     "isDeprecated": false,
     "rightColumn": 64,
