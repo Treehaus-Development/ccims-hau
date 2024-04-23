@@ -27,7 +27,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Reload Data",
+    "text": "Sync Household",
     "isDisabled": false,
     "key": "ato7sambb8",
     "isDeprecated": false,

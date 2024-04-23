@@ -8,6 +8,10 @@
 	"landlord": {
 	"name": "{{landlordname.text}}",
 	"address": "{{landlordaddress.text}}",
+		"address2": "{{landlordaddress2.text}}",
+		"city": "{{landlordcity.text}}",
+		"state": "{{landlord_state.text}}",
+		"zip": "{{landlord_zip.text}}",
 	"phone": {{landlordphone.text || 0}},
 	"email": "{{landlordemail.text}}",
 	"eft": {{landlordeft.isSwitchedOn}},
