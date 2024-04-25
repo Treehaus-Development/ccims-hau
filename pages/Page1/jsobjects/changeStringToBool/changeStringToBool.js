@@ -1,7 +1,11 @@
 export default {
-	household_dataCopyschema__root_schema__childrendisabilitychildrenstatusonSelectionChange () {
-	household_dataCopy.formData.disability.status = (household_dataCopy.formData.disability.status==1) ? true : false 
-	household_dataCopy.formData.disability.ssiapplied = (household_dataCopy.formData.disability.ssiapplied==1) ? true : false 
-	household_dataCopy.formData.disability.ssiaward = (household_dataCopy.formData.disability.ssiaward==1) ? true : false 
+	household_dataCopyschema__root_schema__childrendisabilitychildrenstatusonSelectionChange() {
+		household_dataCopy.formData.disability.status = (household_dataCopy.formData.disability.status == "true") ? true : false;
+		household_dataCopy.formData.disability.ssiapplied = (household_dataCopy.formData.disability.ssiapplied == "true") ? true : false;
+		household_dataCopy.formData.disability.ssiaward = (household_dataCopy.formData.disability.ssiaward == "true") ? true : false;
+		household_dataCopy.formData.employment.status = (household_dataCopy.formData.employment.status == "true") ? true : false;
+		update_household.run().then(() => {
+			showAlert('Data updated', 'success');
+		});
 	}
 }

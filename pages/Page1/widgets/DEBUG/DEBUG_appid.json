@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -47,7 +47,7 @@
     "key": "kqfdy2e0xx",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 7,
+    "rightColumn": 8,
     "widgetId": "ekzysb1t8m",
     "minWidth": 450,
     "label": "Application ID",
