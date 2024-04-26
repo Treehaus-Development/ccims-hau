@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.734375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 4,
+    "leftColumn": 6,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "CCIMS Toolbox",
     "key": "m3wcyk3l6x",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 62,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "f71t9imfqu",
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 41,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }
