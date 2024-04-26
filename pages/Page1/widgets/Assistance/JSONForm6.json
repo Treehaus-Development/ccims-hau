@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "",
+    "onSubmit": "{{update_casemanager.run().then(() => {setTimeout(() => { getapp.run() }, 2000);});}}",
     "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -77,7 +77,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Next",
+    "submitButtonLabel": "Save",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -577,7 +577,8 @@
         {"key": "schema.__root_schema__.children.appfees.children.request.defaultValue"},
         {"key": "schema.__root_schema__.children.deposit.children.request.defaultValue"},
         {"key": "schema.__root_schema__.children.arrears.children.request.defaultValue"},
-        {"key": "schema.__root_schema__.children.utilities.children.request.defaultValue"}
+        {"key": "schema.__root_schema__.children.utilities.children.request.defaultValue"},
+        {"key": "onSubmit"}
     ],
     "displayName": "JSON Form",
     "bottomRow": 123,

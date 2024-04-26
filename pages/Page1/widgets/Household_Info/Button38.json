@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 27,
     "widgetName": "Button38",
-    "onClick": "{{getapp.run().then(() => {\n  Container9Copy1.setVisibility(false);\n});}}",
+    "onClick": "{{update_household.run().then(() => {\n  getapp.run(); Container9Copy1.setVisibility(false);\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
