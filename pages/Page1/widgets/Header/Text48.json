@@ -24,12 +24,11 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{Date.now()}}",
+    "text": "",
     "key": "iped08838q",
     "isDeprecated": false,
     "rightColumn": 6,
