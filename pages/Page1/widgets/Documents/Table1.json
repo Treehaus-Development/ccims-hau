@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 5,
+    "topRow": 7,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -65,6 +65,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1712612637905,
+    "originalBottomRow": 64,
     "primaryColumnId": "label",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 33,
@@ -81,7 +82,7 @@
         {"key": "primaryColumns.customColumn1.isDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 66,
     "columnWidthMap": {
         "is_required": 119,
         "name": 545,
@@ -247,6 +248,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 5,
     "mobileLeftColumn": 2,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
