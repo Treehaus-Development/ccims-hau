@@ -62,10 +62,10 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 15,
-    "originalTopRow": 15,
+    "originalTopRow": 18,
     "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 26,
     "isInline": true,
     "alignment": "left",
     "minDynamicHeight": 4

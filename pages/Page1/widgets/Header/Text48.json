@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "9486154",
+    "text": "58755160",
     "key": "iped08838q",
     "isDeprecated": false,
     "rightColumn": 6,
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 6,
+    "originalBottomRow": 5,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
