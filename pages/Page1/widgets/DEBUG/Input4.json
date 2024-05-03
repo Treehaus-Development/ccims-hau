@@ -9,8 +9,7 @@
     "leftColumn": 42,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
+        {"key": "borderRadius"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -70,6 +69,6 @@
     "mobileLeftColumn": 40,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{Date.now()}}",
+    "defaultText": "",
     "minDynamicHeight": 4
 }
