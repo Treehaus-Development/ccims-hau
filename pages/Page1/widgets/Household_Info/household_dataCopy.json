@@ -770,7 +770,7 @@
         {"key": "schema.__root_schema__.children.disability.children.status.onSelectionChange"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 156,
+    "bottomRow": 171,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "{{List1.selectedItem.name}}",
