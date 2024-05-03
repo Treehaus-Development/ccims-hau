@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.d9bf1c0820d1437867fa5a3dfb174eba.svg",
-    "topRow": 40,
+    "topRow": 37,
     "labelWidth": 5,
     "type": "PHONE_INPUT_WIDGET",
     "animateLoading": true,
@@ -27,7 +27,7 @@
     "widgetName": "landlordphone",
     "displayName": "Phone Input",
     "searchTags": ["call"],
-    "bottomRow": 47,
+    "bottomRow": 44,
     "parentRowSpace": 10,
     "defaultDialCode": "+1",
     "autoFocus": false,

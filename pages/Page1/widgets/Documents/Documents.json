@@ -13,8 +13,8 @@
         "parent",
         "group"
     ],
-    "topRow": 1313,
-    "bottomRow": 1391,
+    "topRow": 630,
+    "bottomRow": 706,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -36,7 +36,7 @@
         "widgetName": "Canvas28",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 780,
+        "bottomRow": 760,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -88,10 +88,10 @@
     "isLoading": false,
     "mobileTopRow": 422,
     "responsiveBehavior": "fill",
-    "originalTopRow": 717,
+    "originalTopRow": 632,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 793,
+    "originalBottomRow": 708,
     "minDynamicHeight": 10
 }
