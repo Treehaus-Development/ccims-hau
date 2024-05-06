@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 5,
     "widgetName": "Button43",
-    "onClick": "{{Input4.setValue(Date.now())}}",
+    "onClick": "{{Text48.setText(Text48Copy.text)}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
