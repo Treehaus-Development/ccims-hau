@@ -348,16 +348,7 @@
                         "label": "Request",
                         "originalIdentifier": "request",
                         "children": {},
-                        "options": [
-                            {
-                                "label": "Yes",
-                                "value": "Y"
-                            },
-                            {
-                                "label": "No",
-                                "value": "N"
-                            }
-                        ],
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": \"Y\"\n  },\n  {\n    \"label\": \"No\",\n    \"value\": \"N\"\n  }\n]",
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
@@ -488,7 +479,7 @@
                         "boxShadow": "none",
                         "isRequired": false,
                         "isCustomField": false,
-                        "defaultValue": "{{getapp.data.application[0].application.assistance.arrears.}}",
+                        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.utilities.request))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm6.sourceData, JSONForm6.formData, JSONForm6.fieldState)}}",
                         "dataType": "boolean",
                         "accessor": "request",
@@ -496,7 +487,7 @@
                         "label": "Request",
                         "originalIdentifier": "request",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": \"Y\"\n  },\n  {\n    \"label\": \"No\",\n    \"value\": \"N\"\n  }\n]",
                         "position": 0,
                         "isDisabled": false,
                         "sourceData": false,
