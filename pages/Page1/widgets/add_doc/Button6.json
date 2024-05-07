@@ -31,7 +31,7 @@
         {"key": "isDisabled"}
     ],
     "text": "Submit",
-    "isDisabled": "{{\n!Input2.data && !FilePicker1\n  .files.length\n}}",
+    "isDisabled": "{{\n!Input2.isValid\n}}",
     "key": "cmqx808unh",
     "isDeprecated": false,
     "rightColumn": 63,

@@ -10,12 +10,14 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "defaultText"}
+        {"key": "defaultText"},
+        {"key": "validation"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
     "isDisabled": false,
-    "isRequired": false,
+    "validation": "{{Input2.text.length > 1}}",
+    "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
