@@ -417,7 +417,7 @@
         "buttonVariant": "PRIMARY"
     },
     "displayName": "JSON Form",
-    "bottomRow": 103,
+    "bottomRow": 111,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",

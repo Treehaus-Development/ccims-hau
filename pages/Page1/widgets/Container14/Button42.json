@@ -4,7 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 14,
     "widgetName": "Button42",
+    "onClick": "{{showModal(Modal4.name);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
@@ -19,14 +21,15 @@
     "mobileRightColumn": 53,
     "animateLoading": true,
     "parentColumnSpace": 18.3056640625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 37,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "isDisabled"}
     ],
     "text": "Complete Form W9",
-    "isDisabled": false,
+    "isDisabled": "{{FilePicker2.files.length === 0}}",
     "key": "vyruay5n2d",
     "isDeprecated": false,
     "rightColumn": 53,
