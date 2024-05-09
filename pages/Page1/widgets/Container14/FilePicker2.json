@@ -31,7 +31,7 @@
     "isDefaultClickDisabled": true,
     "widgetId": "527p1jj5je",
     "minWidth": 120,
-    "isVisible": false,
+    "isVisible": true,
     "label": "Select Files",
     "maxFileSize": 5,
     "dynamicTyping": true,
