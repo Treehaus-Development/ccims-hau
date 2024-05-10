@@ -8,13 +8,13 @@
     "dynamicPropertyPathList": [{"key": "isVisible"}],
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
     "displayName": "Container",
-    "topRow": 771,
+    "topRow": 765,
     "searchTags": [
         "div",
         "parent",
         "group"
     ],
-    "bottomRow": 791,
+    "bottomRow": 835,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -36,7 +36,7 @@
         "widgetName": "Canvas33",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 200,
+        "bottomRow": 700,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -89,10 +89,10 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 744,
     "responsiveBehavior": "fill",
-    "originalTopRow": 771,
+    "originalTopRow": 765,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 791,
+    "originalBottomRow": 835,
     "minDynamicHeight": 10
 }
