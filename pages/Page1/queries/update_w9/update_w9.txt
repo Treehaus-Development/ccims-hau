@@ -1,0 +1,14 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+"landlord": {
+	"w9":{
+	{{JSONForm7.formData}},
+	"w9file": "{{Upload_w9.data.url.split("/").pop()}}"
+}
+},
+	documents:[{
+	"label":"Landlord W9",
+	"value":"{{Upload_w9.data.url.split("/").pop()}}"
+}]
+}
+}

@@ -18,7 +18,7 @@
     "labelStyle": "",
     "inputType": "TEXT",
     "isDisabled": false,
-    "isRequired": "{{landlordeft.isSwitchedOn}}",
+    "isRequired": "{{landlordeftCopy.isSwitchedOn}}",
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,

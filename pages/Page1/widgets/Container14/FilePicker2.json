@@ -44,10 +44,10 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 5,
     "responsiveBehavior": "hug",
-    "originalTopRow": 18,
+    "originalTopRow": 13,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 37,
-    "originalBottomRow": 22,
+    "originalBottomRow": 17,
     "files": [],
     "maxNumFiles": 1
 }
