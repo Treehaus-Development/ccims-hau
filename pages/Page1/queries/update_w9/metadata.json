@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\"landlord\": {\n\t\"w9\":{\n\t{{JSONForm7.formData}},\n\t\"w9file\": \"{{Upload_w9.data.url.split(\"/\").pop()}}\"\n}\n},\n\tdocuments:[{\n\t\"label\":\"Landlord W9\",\n\t\"value\":\"{{Upload_w9.data.url.split(\"/\").pop()}}\"\n}]\n}\n}\n",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\"housing\": {\n\t\"landlord\": {\n\t\"w9\": {{JSONForm7.formData}},\n\t\"w9file\": \"{{Upload_w9.data.url.split(\"/\").pop()}}\"}\n}},\n\t\"documents\":{\n\t\"label\":\"Landlord W9\",\n\t\"value\":\"{{Upload_w9.data.url.split(\"/\").pop()}}\"\n}\n\n}}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
