@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "body": {
-          "data": "{{FilePicker1.files[0]}}"
+          "data": "{{FilePicker2.files[0]}}"
         },
         "bucket": {
           "data": "ccims-ccdsd-hau"
@@ -70,7 +70,7 @@
           }
         },
         "path": {
-          "data": "doc-{{getapp.data.application[0].application.id}}-w9-{{(Math.random() + 1).toString(36).substring(7)}}.{{FilePicker1.files[0].name.split(\".\").pop()}}"
+          "data": "doc-{{getapp.data.application[0].application.id}}-w9-{{(Math.random() + 1).toString(36).substring(7)}}.{{FilePicker2.files[0].name.split(\".\").pop()}}"
         },
         "read": {
           "dataType": {
@@ -98,8 +98,8 @@
     "messages": [],
     "jsonPathKeys": [
       "(Math.random() + 1).toString(36).substring(7)",
-      "FilePicker1.files[0]",
-      "FilePicker1.files[0].name.split(\".\").pop()",
+      "FilePicker2.files[0]",
+      "FilePicker2.files[0].name.split(\".\").pop()",
       "getapp.data.application[0].application.id"
     ],
     "userSetOnLoad": false,
