@@ -4,13 +4,13 @@
     "widgetName": "Text53",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 132,
+    "topRow": 135,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 136,
+    "bottomRow": 139,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -58,11 +58,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 132,
     "responsiveBehavior": "fill",
-    "originalTopRow": 132,
+    "originalTopRow": 135,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 136,
+    "originalBottomRow": 139,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

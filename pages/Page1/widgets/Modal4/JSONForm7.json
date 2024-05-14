@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.7df6f087cceba86a9a5481b6c7f4871d.svg",
-    "onSubmit": "{{Upload_w9.run().then(() => {\n  update_w9.run().then(() => {\n\t\ncloseModal('Modal4').then(() => {\n\t\nshowAlert('Upload Successful', '').then(() => {\n\t\n\tgetapp.run();})})})});}}",
+    "onSubmit": "{{Upload_w9.run().then(() => {\n  update_w9.run().then(() => {\n\t\ncloseModal('Modal4').then(() => {\n\t\nshowAlert('Upload Successful', '').then(() => {\n\t\n\tContainer14.setVisibility(false);Container18.setVisibility(true)\n})})})});}}",
     "topRow": 1,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -151,7 +151,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 111,
+    "originalBottomRow": 125,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",

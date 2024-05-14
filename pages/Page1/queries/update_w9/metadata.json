@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v1/ccims/ccdsd/hau/update",
+      "path": "/v1/4c8f553a-464e-446a-b703-97c6d50760e9",
       "headers": [
         {
           "key": "appid",
