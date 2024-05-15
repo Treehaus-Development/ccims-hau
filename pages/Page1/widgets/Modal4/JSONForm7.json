@@ -44,7 +44,6 @@
         {"key": "schema.__root_schema__.children.customField13.isDisabled"},
         {"key": "schema.__root_schema__.children.customField14.accentColor"},
         {"key": "schema.__root_schema__.children.customField14.borderRadius"},
-        {"key": "schema.__root_schema__.children.customField9.isDisabled"},
         {"key": "schema.__root_schema__.children.customField10.isDisabled"}
     ],
     "showReset": true,
@@ -465,7 +464,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 10,
-                "isDisabled": "{{((sourceData, formData, fieldState) => (formData.customField3 !== \"Individualsoleproprietor\"))(JSONForm7.sourceData, JSONForm7.formData, JSONForm7.fieldState)}}",
+                "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
             }
@@ -486,7 +485,6 @@
     },
     "dynamicPropertyPathList": [
         {"key": "schema.__root_schema__.children.customField13.isDisabled"},
-        {"key": "schema.__root_schema__.children.customField9.isDisabled"},
         {"key": "schema.__root_schema__.children.customField10.isDisabled"},
         {"key": "onSubmit"}
     ],
