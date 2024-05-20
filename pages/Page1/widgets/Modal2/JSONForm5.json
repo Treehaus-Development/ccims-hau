@@ -150,7 +150,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 68,
+    "originalBottomRow": 46,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -202,7 +202,7 @@
                 "dataType": "string",
                 "accessor": "entrydate",
                 "isVisible": "{{((sourceData, formData, fieldState) => (formData.citizenship === \"citizen\" || formData.citizenship === \"resident\"))(JSONForm5.sourceData, JSONForm5.formData, JSONForm5.fieldState)}}",
-                "label": "Were you released into the United States between February 24, 2022, and September 30,\n2023?",
+                "label": "Were you released into the United States between February 24, 2022, and September 30,\n2024?",
                 "serverSideFiltering": false,
                 "originalIdentifier": "entrydate",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm5.sourceData, JSONForm5.formData, JSONForm5.fieldState)}}",
@@ -406,7 +406,7 @@
         {"key": "schema.__root_schema__.children.entrydate.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 46,
+    "bottomRow": 39,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Eligibile Person {{qual_person.selectedOptionLabel}}",
