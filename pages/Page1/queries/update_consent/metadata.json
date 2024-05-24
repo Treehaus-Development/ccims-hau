@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"consent\": {\n\t\t\"email\": \"{{Input1.text}}\",\n\t\t\"sms\": \"{{PhoneInput1.text}}\"\n\t}\n}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"stage\": \"consentform\",\n\t\"consent\": {\n\t\t\"email\": \"{{Input1.text}}\",\n\t\t\"sms\": \"{{PhoneInput1.text}}\"\n\t}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
