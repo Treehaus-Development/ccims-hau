@@ -6,7 +6,7 @@
     "topRow": 5,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -51,7 +51,9 @@
         {"key": "schema.__root_schema__.children.matchgrant.isVisible"},
         {"key": "schema.__root_schema__.children.sponsorsupport.isVisible"},
         {"key": "schema.__root_schema__.children.citizenship.isVisible"},
-        {"key": "schema.__root_schema__.children.entrydate.isVisible"}
+        {"key": "schema.__root_schema__.children.entrydate.isVisible"},
+        {"key": "schema.__root_schema__.children.customField2.borderRadius"},
+        {"key": "schema.__root_schema__.children.customField2.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -259,6 +261,28 @@
                 "sourceData": "",
                 "fieldType": "Currency Input"
             },
+            "customField2": {
+                "labelTextSize": "0.875rem",
+                "identifier": "customField2",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": true,
+                "defaultValue": "Catholic Charities - Housing Assistance for Ukrainians",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm5.sourceData, JSONForm5.formData, JSONForm5.fieldState)}}",
+                "dataType": "string",
+                "accessor": "customField2",
+                "isVisible": true,
+                "label": "Referring Agency",
+                "originalIdentifier": "customField2",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm5.sourceData, JSONForm5.formData, JSONForm5.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 9,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            },
             "servicearea": {
                 "labelTextSize": "0.875rem",
                 "identifier": "servicearea",
@@ -406,7 +430,7 @@
         {"key": "schema.__root_schema__.children.entrydate.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 39,
+    "bottomRow": 46,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Eligibile Person {{qual_person.selectedOptionLabel}}",
@@ -420,7 +444,7 @@
     "key": "9kdbsco1ij",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 62,
     "widgetId": "abq4t9qluo",
     "minWidth": 450,
     "parentId": "eutsxdu2jg",
