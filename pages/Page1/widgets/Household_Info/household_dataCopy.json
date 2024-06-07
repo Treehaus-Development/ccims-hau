@@ -89,7 +89,14 @@
         {"key": "schema.__root_schema__.children.disability.children.ssiapplied.placeholderText"},
         {"key": "schema.__root_schema__.children.disability.children.ssiaward.placeholderText"},
         {"key": "schema.__root_schema__.children.employment.children.status.defaultValue"},
-        {"key": "schema.__root_schema__.children.employment.children.status.placeholderText"}
+        {"key": "schema.__root_schema__.children.employment.children.status.placeholderText"},
+        {"key": "schema.__root_schema__.children.contact.children.customField1.borderRadius"},
+        {"key": "schema.__root_schema__.children.contact.children.customField1.accentColor"},
+        {"key": "schema.__root_schema__.children.employment.children.customField3.borderRadius"},
+        {"key": "schema.__root_schema__.children.employment.children.customField3.accentColor"},
+        {"key": "schema.__root_schema__.children.customField1.borderRadius"},
+        {"key": "schema.__root_schema__.children.customField1.accentColor"},
+        {"key": "schema.__root_schema__.children.customField1.label"}
     ],
     "showReset": false,
     "flexVerticalAlignment": "start",
@@ -315,7 +322,7 @@
                         "fieldType": "Select"
                     }
                 },
-                "position": 5,
+                "position": 6,
                 "isDisabled": false,
                 "sourceData": {
                     "number": "",
@@ -324,6 +331,29 @@
                 },
                 "cellBoxShadow": "none",
                 "fieldType": "Object"
+            },
+            "customField1": {
+                "labelTextSize": "0.875rem",
+                "identifier": "customField1",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isFilterable": false,
+                "isCustomField": true,
+                "defaultValue": "",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                "dataType": "string",
+                "accessor": "customField1",
+                "isVisible": true,
+                "label": "Relationship to {{getapp.data.application[0].application.qualifyingperson.name}}",
+                "serverSideFiltering": false,
+                "originalIdentifier": "customField1",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                "children": {},
+                "options": "[{\"label\": \"Self\",\"value\": \"Self\"},\n{\"label\": \"Spouse\",\"value\": \"Spouse\"},\n{\"label\": \"Child\",\"value\": \"Child\"},\n{\"label\": \"Parent\",\"value\": \"Parent\"},\n{\"label\": \"Sibling\",\"value\": \"Sibling\"},\n{\"label\": \"Grandchild\",\"value\": \"Grandchild\"},\n{\"label\": \"Grandparent\",\"value\": \"Grandparent\"},\n{\"label\": \"Other\",\"value\": \"Other\"}]",
+                "position": 3,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Select"
             },
             "disability": {
                 "labelTextSize": "0.875rem",
@@ -436,7 +466,7 @@
                         "fieldType": "Select"
                     }
                 },
-                "position": 7,
+                "position": 8,
                 "isDisabled": false,
                 "sourceData": {
                     "amount": 0,
@@ -462,6 +492,29 @@
                 "originalIdentifier": "contact",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                 "children": {
+                    "customField1": {
+                        "labelTextSize": "0.875rem",
+                        "identifier": "customField1",
+                        "boxShadow": "none",
+                        "isRequired": false,
+                        "isFilterable": false,
+                        "isCustomField": true,
+                        "defaultValue": "",
+                        "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                        "dataType": "string",
+                        "accessor": "customField1",
+                        "isVisible": true,
+                        "label": "English Proficiency ",
+                        "serverSideFiltering": false,
+                        "originalIdentifier": "customField1",
+                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                        "children": {},
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": \"Yes\"\n  },\n  {\n    \"label\": \"No\",\n    \"value\": \"No\"\n  }\n]",
+                        "position": 2,
+                        "isDisabled": false,
+                        "sourceData": "",
+                        "fieldType": "Select"
+                    },
                     "telephone": {
                         "labelTextSize": "0.875rem",
                         "identifier": "telephone",
@@ -507,7 +560,7 @@
                         "fieldType": "Text Input"
                     }
                 },
-                "position": 3,
+                "position": 4,
                 "isDisabled": false,
                 "sourceData": {
                     "telephone": "",
@@ -555,7 +608,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 4,
+                "position": 5,
                 "isDisabled": false,
                 "sourceData": "Batman No Last Name",
                 "fieldType": "Text Input"
@@ -592,7 +645,7 @@
                         "children": {},
                         "isSpellCheck": false,
                         "iconAlign": "left",
-                        "position": 4,
+                        "position": 5,
                         "isDisabled": false,
                         "sourceData": 0,
                         "fieldType": "Number Input"
@@ -643,6 +696,27 @@
                         "sourceData": "",
                         "fieldType": "Currency Input"
                     },
+                    "customField3": {
+                        "labelTextSize": "0.875rem",
+                        "identifier": "customField3",
+                        "boxShadow": "none",
+                        "isRequired": false,
+                        "isCustomField": true,
+                        "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                        "dataType": "string",
+                        "accessor": "customField3",
+                        "isVisible": true,
+                        "label": "Profession",
+                        "originalIdentifier": "customField3",
+                        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
+                        "children": {},
+                        "isSpellCheck": false,
+                        "iconAlign": "left",
+                        "position": 4,
+                        "isDisabled": false,
+                        "sourceData": "",
+                        "fieldType": "Text Input"
+                    },
                     "employername": {
                         "labelTextSize": "0.875rem",
                         "identifier": "employername",
@@ -690,7 +764,7 @@
                         "fieldType": "Select"
                     }
                 },
-                "position": 6,
+                "position": 7,
                 "isDisabled": false,
                 "sourceData": {
                     "monthlygross": 0,
@@ -770,7 +844,7 @@
         {"key": "schema.__root_schema__.children.disability.children.status.onSelectionChange"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 171,
+    "bottomRow": 154,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "{{List1.selectedItem.name}}",
