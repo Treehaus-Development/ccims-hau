@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 6,
-    "bottomRow": 15,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,10 +29,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "This Application has been rejected. Reason:\n\n{{getapp.data.application[0].application.denialreason}}",
+    "text": "This Application has been rejected. Reason:\n\n{{getapp.data.application[0].application.denialcasenote.replace(/<[^>]*>/g, '')}}",
     "key": "7r3o9rl6jf",
     "isDeprecated": false,
-    "rightColumn": 17,
+    "rightColumn": 31,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
+    "originalBottomRow": 13,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
