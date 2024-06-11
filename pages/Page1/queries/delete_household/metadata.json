@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v1/ccims/ccdsd/hau/householdremove",
+      "path": "/v1/6d508f62-392d-46c4-b4c4-42c849afd1a0",
       "headers": [
         {
           "key": "appid",
@@ -40,7 +40,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"household\": {{household_dataCopy.formData}}\n}}",
+      "body": "{\"application\":{\n\t\"id\": \"{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}\",\n\t\"household\": {{List1.triggeredItem}}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -68,7 +68,7 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.URL.queryParams.application || DEBUG_appid.text ",
-      "household_dataCopy.formData"
+      "List1.triggeredItem"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": true,

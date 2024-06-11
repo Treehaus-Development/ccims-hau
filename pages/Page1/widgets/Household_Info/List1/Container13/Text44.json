@@ -32,7 +32,7 @@
     "text": "{{currentItem.name}}",
     "key": "7pilseuubo",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 31,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "x8r4airbnj",

@@ -32,7 +32,7 @@
     "text": "DOB: {{currentItem.birthday}}",
     "key": "7pilseuubo",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 32,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "l5og8o616c",
