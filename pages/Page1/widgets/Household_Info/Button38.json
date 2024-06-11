@@ -35,7 +35,7 @@
     "isDefaultClickDisabled": true,
     "widgetId": "dv1ldj7tro",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": false,
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "ql4vumgprd",
