@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
-    "topRow": 818,
+    "topRow": 853,
     "type": "CONTAINER_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
@@ -85,7 +85,7 @@
         "parent",
         "group"
     ],
-    "bottomRow": 837,
+    "bottomRow": 872,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
