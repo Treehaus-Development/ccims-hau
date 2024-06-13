@@ -760,7 +760,7 @@
                         "originalIdentifier": "status",
                         "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "children": {},
-                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  }\n]",
+                        "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": \"Yes\"\n  },\n  {\n    \"label\": \"No\",\n    \"value\": \"No\"\n  }\n]",
                         "placeholderText": "{{((sourceData, formData, fieldState) => ((List1.selectedItem.employment.status == true) ? \"Yes\" : \"No\"))(household_dataCopy.sourceData, household_dataCopy.formData, household_dataCopy.fieldState)}}",
                         "position": 2,
                         "isDisabled": false,
