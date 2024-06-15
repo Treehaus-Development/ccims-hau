@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "To be elegible for the HAU program a houshold must have an \"Primary Applicant\" that meets the program requirements.\n\nSelect the Primary Applicant from the list on the right then click the \"Start Questionnaire\" button to load the qualification test. \n\nIf the Primary Applicant does not meet elegibility guidelines but you believe that the application should still be processed press the \"Supervisor Override\" button and enter your reasoning. ",
+    "text": "To be eligible for the HAU program a houshold must have an \"Primary Applicant\" that meets the program requirements.\n\nSelect the Primary Applicant from the list on the right then click the \"Start Questionnaire\" button to load the qualification test. \n\nIf the Primary Applicant does not meet eligibility guidelines but you believe that the application should still be processed press the \"Supervisor Override\" button and enter your reasoning. ",
     "key": "t95tzdbu3f",
     "isDeprecated": false,
     "rightColumn": 16,
