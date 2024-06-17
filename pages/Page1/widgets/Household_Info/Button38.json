@@ -37,7 +37,7 @@
     "widgetId": "dv1ldj7tro",
     "bottomRowBeforeCollapse": 83,
     "minWidth": 120,
-    "isVisible": false,
+    "isVisible": true,
     "version": 1,
     "recaptchaType": "V3",
     "parentId": "ql4vumgprd",
