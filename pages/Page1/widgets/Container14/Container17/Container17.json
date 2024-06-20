@@ -12,15 +12,15 @@
         "parent",
         "group"
     ],
-    "topRow": 2,
-    "bottomRow": 68,
+    "topRow": 3,
+    "bottomRow": 69,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 1.40625,
-    "leftColumn": 29,
+    "leftColumn": 33,
     "children": [{
         "rightColumn": 90,
         "widgetName": "Canvas37",
@@ -52,7 +52,7 @@
     "key": "tyk090lees",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 63,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "lsm0ovelpf",
@@ -72,8 +72,8 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 2,
+    "originalTopRow": 3,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 68,
+    "originalBottomRow": 69,
     "minDynamicHeight": 10
 }
