@@ -5,7 +5,7 @@
     "widgetName": "DocumentsCopy",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Container",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -26,8 +26,7 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "isVisible"}
+        {"key": "boxShadow"}
     ],
     "children": [{
         "needsErrorInfo": false,
@@ -80,7 +79,7 @@
     "widgetId": "wurnf9rkcw",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{getapp.data.application[0].application.stage === \"application\"}}",
+    "isVisible": true,
     "version": 1,
     "parentId": "utgjj876ze",
     "tags": ["Layout"],
