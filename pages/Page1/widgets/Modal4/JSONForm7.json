@@ -378,7 +378,7 @@
                 "originalIdentifier": "customField3",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm7.sourceData, JSONForm7.formData, JSONForm7.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"Individual/sole proprietor\",\n    \"value\": \"Individualsoleproprietor\"\n  },\n  {\n    \"label\": \"C Corporation\",\n    \"value\": \"CCorp\"\n  },\n  {\n    \"label\": \"S Corporation\",\n    \"value\": \"SCorp\"\n  },\n  {\n    \"label\": \"Trust/Estate\",\n    \"value\": \"TrustEstate\"\n  },\n  {\n    \"label\": \"LLC\",\n    \"value\": \"LLC\"\n  }\n]",
+                "options": "[\n  {\n    \"label\": \"Individual/sole proprietor\",\n    \"value\": \"Individualsoleproprietor\"\n  },\n  {\n    \"label\": \"Partnership\",\n    \"value\": \"Partnership\"\n  },\n\t  {\n    \"label\": \"C Corporation\",\n    \"value\": \"CCorp\"\n  },\n  {\n    \"label\": \"S Corporation\",\n    \"value\": \"SCorp\"\n  },\n  {\n    \"label\": \"Trust/Estate\",\n    \"value\": \"TrustEstate\"\n  },\n  {\n    \"label\": \"LLC\",\n    \"value\": \"LLC\"\n  }\n]",
                 "position": 2,
                 "isDisabled": false,
                 "sourceData": "",
