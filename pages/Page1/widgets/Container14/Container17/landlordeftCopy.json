@@ -1,47 +1,59 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 38,
-    "widgetName": "landlordeftCopy",
-    "dynamicPropertyPathList": [{"key": "defaultSwitchState"}],
-    "displayName": "Switch",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.afbd826fee9d09b12c5cde30a8c6fe62.svg",
-    "searchTags": ["boolean"],
-    "topRow": 46,
-    "bottomRow": 50,
-    "parentRowSpace": 10,
-    "type": "SWITCH_WIDGET",
-    "alignWidget": "LEFT",
-    "hideCard": false,
-    "mobileRightColumn": 32,
-    "animateLoading": true,
-    "parentColumnSpace": 1.40625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "defaultSwitchState"}
-    ],
-    "labelPosition": "Left",
-    "isDisabled": false,
-    "key": "xd409ocbfk",
-    "isDeprecated": false,
-    "rightColumn": 38.400000000000006,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "ezvssy5o94",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Requesting EFT",
-    "defaultSwitchState": "{{getapp.data.application[0].application.housing.landlord.eft}}",
-    "version": 1,
-    "parentId": "sj2tkndobq",
-    "tags": ["Toggles"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 34,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 51,
-    "mobileLeftColumn": 20,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 56,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 50,
+  "boxShadow": "none",
+  "defaultSwitchState": "{{getapp.data.application[0].application.housing.landlord.eft}}",
+  "displayName": "Switch",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.afbd826fee9d09b12c5cde30a8c6fe62.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xd409ocbfk",
+  "label": "Requesting EFT",
+  "labelPosition": "Left",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 34,
+  "originalBottomRow": 56,
+  "originalTopRow": 51,
+  "parentColumnSpace": 1.40625,
+  "parentId": "sj2tkndobq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 38.400000000000006,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 46,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "ezvssy5o94",
+  "widgetName": "landlordeftCopy"
 }

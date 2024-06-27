@@ -1,56 +1,70 @@
 {
-    "resetFormOnClick": false,
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 27,
-    "onClick": "{{update_household.run().then(() => {\n  getapp.run(); Container9Copy1.setVisibility(false);\n});}}",
-    "widgetName": "Button38",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "displayName": "Button",
-    "topRow": 79,
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "bottomRow": 83,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "topRowBeforeCollapse": 79,
-    "mobileRightColumn": 17,
-    "animateLoading": true,
-    "parentColumnSpace": 18.23681640625,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Sync Household",
-    "isDisabled": false,
-    "key": "ato7sambb8",
-    "isDeprecated": false,
-    "rightColumn": 23,
-    "isDefaultClickDisabled": true,
-    "widgetId": "dv1ldj7tro",
-    "bottomRowBeforeCollapse": 83,
-    "minWidth": 120,
-    "isVisible": true,
-    "version": 1,
-    "recaptchaType": "V3",
-    "parentId": "ql4vumgprd",
-    "tags": ["Buttons"],
-    "isLoading": false,
-    "renderMode": "CANVAS",
-    "mobileTopRow": 23,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 79,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 1,
-    "originalBottomRow": 83,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 83,
+  "bottomRowBeforeCollapse": 83,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ato7sambb8",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 23,
+  "needsErrorInfo": false,
+  "onClick": "{{update_household.run().then(() => {\n  getapp.run(); Container9Copy1.setVisibility(false);\n});}}",
+  "originalBottomRow": 83,
+  "originalTopRow": 79,
+  "parentColumnSpace": 18.23681640625,
+  "parentId": "ql4vumgprd",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 23,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Sync Household",
+  "topRow": 79,
+  "topRowBeforeCollapse": 79,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "dv1ldj7tro",
+  "widgetName": "Button38"
 }
