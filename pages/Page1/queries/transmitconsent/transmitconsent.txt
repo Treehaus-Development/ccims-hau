@@ -1,0 +1,8 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+	"stage": "consentform",
+	"consent": {
+		"email": "{{Input1.text}}",
+		"sms": "{{PhoneInput1.text}}"
+	}
+}}

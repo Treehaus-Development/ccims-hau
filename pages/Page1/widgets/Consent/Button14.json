@@ -39,7 +39,7 @@
   "mobileLeftColumn": 2,
   "mobileRightColumn": 18,
   "mobileTopRow": 16,
-  "onClick": "{{update_consent.run().then(() => {\n  showAlert('Consent Forms Transmitted', 'success');\n  Container11.setVisibility(true);Consent.setVisibility(false)\n});}}",
+  "onClick": "{{update_consent.run().then(() => { transmitconsent.run();\n  showAlert('Consent Forms Transmitted', 'success');\n  Container11.setVisibility(true);Consent.setVisibility(false)\n});}}",
   "originalBottomRow": 23,
   "originalTopRow": 19,
   "parentColumnSpace": 18.953125,
