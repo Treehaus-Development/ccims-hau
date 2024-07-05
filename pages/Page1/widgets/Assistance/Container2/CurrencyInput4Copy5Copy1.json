@@ -4,11 +4,11 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 91,
+  "bottomRow": 99,
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
-  "defaultText": "{{CurrencyInput4Copy5.value>9999.96?9999.96:CurrencyInput4Copy5.value}}",
+  "defaultText": "{{CurrencyInput4Copy5Copy.value<0?(CurrencyInput4Copy5.value+CurrencyInput4Copy5Copy.value):CurrencyInput4Copy5.value}}",
   "displayName": "Currency Input",
   "dynamicBindingPathList": [
     {
@@ -32,13 +32,13 @@
   "isRequired": false,
   "isVisible": true,
   "key": "xvivdqptah",
-  "label": "6 Month Benefit Award",
+  "label": "Total Benefit Award",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -55,7 +55,7 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 60,
   "searchTags": [
     "amount",
     "total"
@@ -64,7 +64,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 84,
+  "topRow": 92,
   "type": "CURRENCY_INPUT_WIDGET",
   "version": 1,
   "widgetId": "ijxv4zn8pk",

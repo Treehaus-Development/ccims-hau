@@ -52,9 +52,9 @@
     "Suggested",
     "Content"
   ],
-  "text": "Calculation Debug",
+  "text": "Assistance Calculation",
   "textAlign": "LEFT",
-  "textColor": "#ef4444",
+  "textColor": "#18181b",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

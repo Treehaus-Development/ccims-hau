@@ -27,5 +27,9 @@
 	 "qualifyingadults": {{leasequaladults.text}}
 }
 },
- "assistance": {{JSONForm6.formData}}
+ "assistance": {{JSONForm6.formData}},
+ "funding": {
+ "servicemonths": {{Input5.text}},
+ "priorfunds": {{CurrencyInput4Copy.value}}
+}
 }}

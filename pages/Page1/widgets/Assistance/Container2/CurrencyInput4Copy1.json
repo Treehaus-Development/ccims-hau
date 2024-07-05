@@ -8,7 +8,7 @@
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
-  "defaultText": "{{ \tNumber(JSONForm6.formData.appfees.amount)+Number(JSONForm6.formData.arrears.amount)+Number(JSONForm6.formData.deposit.amount)+Number(JSONForm6.formData.utilities.amount)\n\t\t\t\t\t\t\t\t\t\t\t }}",
+  "defaultText": "{{ \t(typeof(getapp.data.application[0].application.elegibility.prioramount) === 'number'?Number(JSONForm6.formData.arrears.amount): 0)\n+(typeof(JSONForm6.formData.deposit.amount) === 'number'?Number(JSONForm6.formData.deposit.amount):0)\n+(typeof(JSONForm6.formData.utilities.amount) === 'number'?Number(JSONForm6.formData.utilities.amount):0)\n\t\t\t\t\t\t\t\t\t\t\t }}",
   "displayName": "Currency Input",
   "dynamicBindingPathList": [
     {
