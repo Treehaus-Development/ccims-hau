@@ -8,7 +8,7 @@
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
-  "defaultText": "{{ \t(typeof(getapp.data.application[0].application.elegibility.prioramount) === 'number'?Number(JSONForm6.formData.arrears.amount): 0)\n+(typeof(JSONForm6.formData.deposit.amount) === 'number'?Number(JSONForm6.formData.deposit.amount):0)\n+(typeof(JSONForm6.formData.utilities.amount) === 'number'?Number(JSONForm6.formData.utilities.amount):0)\n\t\t\t\t\t\t\t\t\t\t\t }}",
+  "defaultText": "0",
   "displayName": "Currency Input",
   "dynamicBindingPathList": [
     {
@@ -16,9 +16,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
