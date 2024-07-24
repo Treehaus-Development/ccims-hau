@@ -153,7 +153,7 @@
       "isVisible": true,
       "label": "View Document",
       "labelColor": "#FFFFFF",
-      "onClick": "{{List_File.run().then(() => {\n  navigateTo(List_File.data[0].signedUrl, {}, 'NEW_WINDOW');\n});}}",
+      "onClick": "{{List_FileCopy.run().then(() => {\n  navigateTo(List_FileCopy.data[0].signedUrl, {}, 'NEW_WINDOW');\n});}}",
       "originalId": "customColumn1",
       "sticky": "right",
       "textSize": "0.875rem",
