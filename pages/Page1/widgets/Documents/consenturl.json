@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
-  "displayName": "Text",
+  "bottomRow": 86,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -12,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -19,46 +21,35 @@
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
-  "hideCard": false,
-  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
-  "isDeprecated": false,
   "isLoading": false,
-  "isVisible": true,
-  "key": "t95tzdbu3f",
-  "leftColumn": 0,
+  "isVisible": false,
+  "key": "yjgkebh6y3",
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 10,
+  "mobileBottomRow": 73,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 15,
-  "mobileTopRow": 6,
-  "originalBottomRow": 22,
-  "originalTopRow": 9,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 69,
+  "needsErrorInfo": false,
+  "originalBottomRow": 93,
+  "originalTopRow": 69,
   "overflow": "NONE",
-  "parentColumnSpace": 18.953125,
-  "parentId": "zip9v9qo9p",
+  "parentColumnSpace": 19.078125,
+  "parentId": "o96l2pvf9r",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 28,
-  "searchTags": [
-    "typography",
-    "paragraph",
-    "label"
-  ],
+  "rightColumn": 10,
   "shouldTruncate": false,
-  "tags": [
-    "Suggested",
-    "Content"
-  ],
-  "text": "This application is currently under review by a Supervisor and no action can be taken until a decision has been made. \n\nPlease refer to your Supervisor for more information",
+  "text": "https://app.appsmith.com/app/programconsentview/1-669ec51561e6553de16571e7?embed=true&application={{appsmith.URL.queryParams.application}}&program=HAU",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 6,
+  "topRow": 69,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "aldlgszmfi",
-  "widgetName": "Text10"
+  "widgetId": "hcnsc65o3w",
+  "widgetName": "consenturl"
 }

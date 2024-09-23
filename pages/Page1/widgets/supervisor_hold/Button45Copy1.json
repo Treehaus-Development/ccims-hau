@@ -43,6 +43,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{navigateTo('https://app.appsmith.com/app/application-supervisor-view-hau-v2/page1-663a835ef2d499361a9f7e61?application=' + getapp.data.application[0].application.id, {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
   "parentColumnSpace": 18.53125,
   "parentId": "zip9v9qo9p",
   "parentRowSpace": 10,

@@ -55,7 +55,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "Primary Applicant: {{getapp.data.application[0].application.qualifyingperson.name}}        Application ID: {{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+  "text": "{{getapp.data.application[0].application.qualifyingperson.name}}        Application ID: {{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 5,
