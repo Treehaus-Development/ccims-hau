@@ -20,7 +20,7 @@
       "headers": [
         {
           "key": "appid",
-          "value": "318"
+          "value": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }"
         }
       ],
       "httpMethod": "GET",
