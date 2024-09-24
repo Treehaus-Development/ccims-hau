@@ -20,7 +20,7 @@
       "headers": [
         {
           "key": "appid",
-          "value": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }"
+          "value": "{{ appsmith.URL.queryParams.application || DEBUG_appid.text }}"
         }
       ],
       "httpMethod": "GET",
@@ -42,7 +42,11 @@
       "name": "getDataSample",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[0].value"
+      }
+    ],
     "executeOnLoad": true,
     "name": "getapp",
     "pageId": "Page1",
