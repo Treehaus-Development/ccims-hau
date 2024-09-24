@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 23,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -64,7 +64,7 @@
   ],
   "text": "Complete Form W9",
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 17,
+  "topRow": 19,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "iby3gqaovt",

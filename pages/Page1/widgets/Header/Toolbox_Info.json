@@ -36,7 +36,7 @@
   "mobileLeftColumn": 15,
   "mobileRightColumn": 31,
   "mobileTopRow": 4,
-  "originalBottomRow": 9,
+  "originalBottomRow": 45,
   "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 19.734375,
@@ -55,7 +55,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{getapp.data.application[0].application.qualifyingperson.name}}        Application ID: {{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
+  "text": "Primary Applicant : {{getapp.data.application[0].application.household[0].name}}   Application ID: {{ appsmith.URL.queryParams.application || DEBUG_appid.text }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 5,
