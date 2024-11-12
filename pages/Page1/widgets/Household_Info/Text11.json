@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 32,
+  "bottomRow": 45,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -33,8 +33,8 @@
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
   "mobileTopRow": 6,
-  "originalBottomRow": 32,
-  "originalTopRow": 6,
+  "originalBottomRow": 45,
+  "originalTopRow": 9,
   "overflow": "NONE",
   "parentColumnSpace": 18.953125,
   "parentId": "ql4vumgprd",
@@ -55,7 +55,7 @@
   "text": "Use the list at the right to select a household members to edit their profle data in the form below, when finished with each household member press the SAVE button at the bottom of the page. \n\nYou may scroll between household members by using the controls at the bottom of the list. \n\nWhen finished with all household members press the Next button to contenue. \n\nTo reset data back to the last save point press the Reload Data button. \n\n\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 6,
+  "topRow": 9,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 77,
+  "bottomRow": 78,
   "boxShadow": "none",
   "defaultText": "{{typeof(getapp.data.application[0].application.funding) === 'object'? (getapp.data.application[0].application.funding.servicemonths):6}}",
   "displayName": "Input",
@@ -76,7 +76,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 70,
+  "topRow": 71,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "snmjhfgrep",

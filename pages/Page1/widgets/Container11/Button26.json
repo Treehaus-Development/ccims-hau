@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 16,
   "boxShadow": "none",
   "buttonColor": "#22c55e",
   "buttonVariant": "PRIMARY",
@@ -44,8 +44,8 @@
   "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onClick": "{{submit_eligibility.run().then(() => {\n  getapp.run();Container11.setVisibility(false)\n});}}",
-  "originalBottomRow": 14,
-  "originalTopRow": 10,
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
   "parentColumnSpace": 18.90625,
   "parentId": "r00911c69y",
   "parentRowSpace": 10,
@@ -63,7 +63,7 @@
     "Buttons"
   ],
   "text": "Submit Application",
-  "topRow": 10,
+  "topRow": 12,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "czwgg6n5uy",

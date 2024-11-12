@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 42,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -33,8 +33,8 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 7,
-  "originalBottomRow": 26,
-  "originalTopRow": 7,
+  "originalBottomRow": 42,
+  "originalTopRow": 10,
   "overflow": "NONE",
   "parentColumnSpace": 18.953125,
   "parentId": "8c0ndkqqte",
@@ -55,7 +55,7 @@
   "text": "Use the toggles to the right to select the appropriate assistance requests for this Client Household. \n\nOnce a toggle has been selected you must enter the dollar amount of the request as well as select an uploaded dociment showing need. \n\nAdditional documents can be uploaded through the \"Documents\" button at the bottom of the page. ",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 7,
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

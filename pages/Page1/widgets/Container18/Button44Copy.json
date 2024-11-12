@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 16,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -27,13 +27,13 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "ue46l0cjav",
-  "leftColumn": 48,
+  "key": "jydu236lmt",
+  "leftColumn": 42,
   "minWidth": 120,
-  "mobileBottomRow": 4,
-  "mobileLeftColumn": 47,
-  "mobileRightColumn": 63,
-  "mobileTopRow": 0,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 9,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -42,18 +42,18 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{navigateTo('https://app.appsmith.com/app/application-supervisor-view-hau-v2/page1-663a835ef2d499361a9f7e61?application=' + getapp.data.application[0].application.id, {}, 'NEW_WINDOW');}}",
-  "originalBottomRow": 12,
-  "originalTopRow": 8,
-  "parentColumnSpace": 18.53125,
-  "parentId": "zip9v9qo9p",
+  "onClick": "{{storeValue('casemanagement', 'https://app.appsmith.com/app/asip-2-0-case-management/page1-66b26d7ec37e347e028f4b85?application=' + appsmith.URL.queryParams.application).then(() => {\n  navigateTo(appsmith.store.casemanagement, {}, 'SAME_WINDOW');\n});}}",
+  "originalBottomRow": 16,
+  "originalTopRow": 9,
+  "parentColumnSpace": 18.5625,
+  "parentId": "f62y40raep",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 58,
   "searchTags": [
     "click",
     "submit"
@@ -61,11 +61,11 @@
   "tags": [
     "Buttons"
   ],
-  "text": "View Read-Only Application",
+  "text": "Go To Case Management",
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 8,
+  "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "gq7ricojqu",
-  "widgetName": "Button45Copy1"
+  "widgetId": "cxzzhektlq",
+  "widgetName": "Button44Copy"
 }

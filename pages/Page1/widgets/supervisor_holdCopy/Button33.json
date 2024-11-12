@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 18,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -41,8 +41,8 @@
   "mobileTopRow": 13,
   "needsErrorInfo": false,
   "onClick": "{{ConsentCopy.setVisibility(true)}}",
-  "originalBottomRow": 14,
-  "originalTopRow": 10,
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
   "parentColumnSpace": 18.90625,
   "parentId": "qx2cjb04io",
   "parentRowSpace": 10,
@@ -60,7 +60,7 @@
     "Buttons"
   ],
   "text": "Re-Send Consent Forms",
-  "topRow": 10,
+  "topRow": 14,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "z5bw6mrv3x",

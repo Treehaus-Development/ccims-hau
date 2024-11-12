@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 18,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -41,8 +41,8 @@
   "mobileLeftColumn": 16,
   "mobileRightColumn": 32,
   "mobileTopRow": 11,
-  "originalBottomRow": 15,
-  "originalTopRow": 11,
+  "originalBottomRow": 18,
+  "originalTopRow": 13,
   "overflow": "NONE",
   "parentColumnSpace": 18.53125,
   "parentId": "a9c3zrlljc",
@@ -63,7 +63,7 @@
   "text": "Being Employed or Registering with an employment agency is a requirement of this program. ",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 11,
+  "topRow": 13,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

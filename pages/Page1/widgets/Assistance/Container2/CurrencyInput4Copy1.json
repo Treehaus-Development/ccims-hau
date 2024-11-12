@@ -4,7 +4,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 28,
+  "bottomRow": 29,
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
@@ -61,7 +61,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 21,
+  "topRow": 22,
   "type": "CURRENCY_INPUT_WIDGET",
   "version": 1,
   "widgetId": "hxigicni9n",

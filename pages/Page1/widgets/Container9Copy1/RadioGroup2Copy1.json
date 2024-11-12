@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 21,
+  "bottomRow": 26,
   "boxShadow": "none",
   "defaultOptionValue": "{{getapp.data.application[0].application.employmentreq.isregistered}}",
   "displayName": "Radio Group",
@@ -67,8 +67,8 @@
       "value": "TF"
     }
   ],
-  "originalBottomRow": 21,
-  "originalTopRow": 15,
+  "originalBottomRow": 26,
+  "originalTopRow": 18,
   "parentColumnSpace": 18.53125,
   "parentId": "a9c3zrlljc",
   "parentRowSpace": 10,
@@ -80,7 +80,7 @@
   "tags": [
     "Toggles"
   ],
-  "topRow": 15,
+  "topRow": 18,
   "type": "RADIO_GROUP_WIDGET",
   "version": 1,
   "widgetId": "ow825xzdah",
