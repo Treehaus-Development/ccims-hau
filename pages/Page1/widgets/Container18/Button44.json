@@ -15,6 +15,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -42,7 +47,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{storeValue('casemanagement', 'https://app.appsmith.com/app/hau-case-management/page1-665656f0020301211b4da137?application=' + appsmith.URL.queryParams.application).then(() => {\n  navigateTo(appsmith.store.casemanagement, {}, 'SAME_WINDOW');\n});}}",
+  "onClick": "{{storeValue('casemanagement', 'ccc?application=' + appsmith.URL.queryParams.application).then(() => {  navigateTo(appsmith.store.casemanagement, {}, 'SAME_WINDOW');\n});}}",
   "originalBottomRow": 16,
   "originalTopRow": 9,
   "parentColumnSpace": 18.5625,

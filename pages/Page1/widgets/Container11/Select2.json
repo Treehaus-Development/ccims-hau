@@ -59,7 +59,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Igor\",\n    \"code\": 34\n  },\n  {\n    \"name\": \"Serhii\",\n    \"code\": 47\n  },\n  {\n    \"name\": \"Lidiia\",\n    \"code\": 48\n  },\n  {\n    \"name\": \"Ihor\",\n    \"code\": 49\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Igor\",\n    \"code\": 34\n  },\n  {\n    \"name\": \"Serhii\",\n    \"code\": 47\n  },\n  {\n    \"name\": \"Lidiia\",\n    \"code\": 48\n  },\n  {\n    \"name\": \"Ihor\",\n    \"code\": 49\n  },\n  {\n    \"name\": \"Mariana\",\n    \"code\": 93\n  }\n]",
   "tags": [
     "Suggested",
     "Select"
