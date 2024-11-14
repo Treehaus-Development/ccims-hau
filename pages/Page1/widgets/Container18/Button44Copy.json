@@ -42,7 +42,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{storeValue('casemanagement', 'https://app.appsmith.com/app/asip-2-0-case-management/page1-66b26d7ec37e347e028f4b85?application=' + appsmith.URL.queryParams.application).then(() => {\n  navigateTo(appsmith.store.casemanagement, {}, 'SAME_WINDOW');\n});}}",
+  "onClick": "{{storeValue('casemanagement', 'https://app.appsmith.com/app/asip-case-management/page1-665656f0020301211b4da137?application=' + appsmith.URL.queryParams.application).then(() => {\n  navigateTo(appsmith.store.casemanagement, {}, 'SAME_WINDOW');\n});}}",
   "originalBottomRow": 16,
   "originalTopRow": 9,
   "parentColumnSpace": 18.5625,
