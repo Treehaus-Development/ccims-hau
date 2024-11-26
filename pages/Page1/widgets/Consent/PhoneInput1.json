@@ -5,7 +5,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 23,
+  "bottomRow": 19,
   "boxShadow": "none",
   "defaultDialCode": "+1",
   "defaultText": "",
@@ -58,7 +58,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 16,
+  "topRow": 12,
   "type": "PHONE_INPUT_WIDGET",
   "version": 1,
   "widgetId": "4dtvszeq87",

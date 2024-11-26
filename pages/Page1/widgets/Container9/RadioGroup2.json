@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 26,
+  "bottomRow": 22,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "displayName": "Radio Group",
@@ -77,7 +77,7 @@
   "tags": [
     "Toggles"
   ],
-  "topRow": 18,
+  "topRow": 16,
   "type": "RADIO_GROUP_WIDGET",
   "version": 1,
   "widgetId": "brw5iv758p",

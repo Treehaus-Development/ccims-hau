@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 5,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -12,47 +12,36 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
-    },
-    {
-      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "isVisible"
-    }
-  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": "{{RadioGroup2.selectedOptionValue===\"N\"}}",
-  "key": "66akn8ppz0",
-  "leftColumn": 8,
+  "isVisible": true,
+  "key": "t95tzdbu3f",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 25,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 21,
-  "originalBottomRow": 31,
-  "originalTopRow": 26,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 0,
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
   "overflow": "NONE",
-  "parentColumnSpace": 18.53125,
-  "parentId": "abkwj2nz6q",
+  "parentColumnSpace": 18.875,
+  "parentId": "eb6sb51933",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 47,
   "searchTags": [
     "typography",
     "paragraph",
@@ -63,13 +52,13 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{qual_person.selectedOptionLabel}} must enroll with an employment agency, or become employed to process this application",
+  "text": "Application Closed",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 22,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "gcl4i1c0nr",
-  "widgetName": "Text33"
+  "widgetId": "mhgktpisle",
+  "widgetName": "Text16Copy"
 }
