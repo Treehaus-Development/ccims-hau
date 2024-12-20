@@ -4,7 +4,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 67,
+  "bottomRow": 68,
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
@@ -47,8 +47,8 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 60,
   "needsErrorInfo": false,
-  "originalBottomRow": 68,
-  "originalTopRow": 61,
+  "originalBottomRow": 67,
+  "originalTopRow": 60,
   "parentColumnSpace": 5.4736328125,
   "parentId": "ag9ud6xr0o",
   "parentRowSpace": 10,
@@ -64,7 +64,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 60,
+  "topRow": 61,
   "type": "CURRENCY_INPUT_WIDGET",
   "version": 1,
   "widgetId": "cmkilandqg",

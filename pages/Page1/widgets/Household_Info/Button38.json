@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 85,
+  "bottomRow": 89,
   "bottomRowBeforeCollapse": 83,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -61,7 +61,7 @@
     "Buttons"
   ],
   "text": "Sync Household",
-  "topRow": 81,
+  "topRow": 85,
   "topRowBeforeCollapse": 79,
   "type": "BUTTON_WIDGET",
   "version": 1,

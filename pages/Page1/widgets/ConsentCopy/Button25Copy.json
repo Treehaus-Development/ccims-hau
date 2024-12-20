@@ -31,7 +31,7 @@
   "mobileLeftColumn": 24,
   "mobileRightColumn": 40,
   "mobileTopRow": 19,
-  "onClick": "{{navigateTo('https://consent.ccims.app/?appid=' + appsmith.URL.queryParams.application + '&program=HAU', {}, 'NEW_WINDOW');}}",
+  "onClick": "{{navigateTo('https://app.appsmith.com/app/programconsentview/1-669ec51561e6553de16571e7?embed=true&' + appsmith.URL.queryParams.application + '=undefined&program=HAU', {}, 'NEW_WINDOW');}}",
   "originalBottomRow": 23,
   "originalTopRow": 19,
   "parentColumnSpace": 18.53125,
