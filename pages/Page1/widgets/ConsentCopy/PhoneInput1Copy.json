@@ -5,7 +5,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 23,
+  "bottomRow": 19,
   "boxShadow": "none",
   "defaultDialCode": "+1",
   "defaultText": "",
@@ -43,8 +43,8 @@
   "mobileLeftColumn": 23,
   "mobileRightColumn": 43,
   "mobileTopRow": 8,
-  "originalBottomRow": 19,
-  "originalTopRow": 12,
+  "originalBottomRow": 23,
+  "originalTopRow": 16,
   "parentColumnSpace": 18.953125,
   "parentId": "0wsbb5w62f",
   "parentRowSpace": 10,
@@ -58,7 +58,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 16,
+  "topRow": 12,
   "type": "PHONE_INPUT_WIDGET",
   "version": 1,
   "widgetId": "kwe3ydr58x",
