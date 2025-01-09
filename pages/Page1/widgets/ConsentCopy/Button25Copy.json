@@ -31,7 +31,7 @@
   "mobileLeftColumn": 24,
   "mobileRightColumn": 40,
   "mobileTopRow": 19,
-  "onClick": "{{navigateTo('https://app.appsmith.com/app/programconsent/1-65fd46b18a180405eae444e7?embed=true&' + appsmith.URL.queryParams.application + '=undefined&program=HAU', {}, 'NEW_WINDOW');}}",
+  "onClick": "{{navigateTo('https://app.appsmith.com/app/programconsent/1-65fd46b18a180405eae444e7?embed=true&application=' + appsmith.URL.queryParams.application + '&name=undefined&program=HAU', {}, 'NEW_WINDOW');}}",
   "originalBottomRow": 23,
   "originalTopRow": 19,
   "parentColumnSpace": 18.53125,
